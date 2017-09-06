@@ -1,0 +1,98 @@
+#！/usr/bin/python  这是加权限，使用bin目录下的Python解释器去打开文件
+
+#coding=utf-8  若代码中有汉语，一定要加这句话，不过在我的终端中加了这句话也不行，但是直接用pycharm的怎么都行，可能是因为python2/3
+之间的切换问题吧
+
+#变量：存储变量
+
+#命名规则：驼峰法命名 userName
+
+#关键字：python中具有特殊功能的标识符，不允许开发者自己定义和关键字相同的
+
+#格式化输出：%d显示有符号的十进制整数 %s显示字符串 %c(显示ASCII码) %f浮点实数
+
+#输入：input()
+#在python2中raw_input输入数据之后可以自动计算，而在python3中没有这种功能。
+#加减乘数  //取整 %取余  + - * /没毛病   取余取整一起用，判断页数还是很有用的
+#赋值运算符 =
+#复合运算符 A*=3+4-6      A=A*3+4-6
+
+#判断语句
+if：
+if：  else：
+if：  elif：
+#逻辑运算符  and   or  not
+if 嵌套 一般嵌套不超过3层
+if   ：
+   if   ：
+      if   ：
+   else：
+else：
+
+#循环
+while
+while嵌套
+break和continue是面试经常问的问题：
+在循环过程中控制循环break和continue
+break是跳出循环，while就死了，直接执行下一段代码，在多层嵌套中，break结束其所在那个循环
+continue只是那一次循环不执行，但是循环跳过这一条之后还会正常运行，只是跳过一步。结束当前循环。
+#for循环（C语言很重要，是内功）
+for-in
+
+#字符串
+输入input就是字符串
+在内存中通常会在最后申请一个\0来标记结尾
+python中的下标是从0开始的，但是不要越界
+IndexError：string index out of range 表示程序越界
+#字符串常见操作
+#find   rfind  count index rinde
+ replace title startwith endwith lower upper len ljust(向左显示) rjust(向右显示) center
+#strip(删除字符串中的空格) partition rpatition splitlines(切除换行)  isalpha(判断是不是都是字母，只要有非字母就是false)
+#isdigit(判断输入是否是纯数字) isalnum(数字和字母组合的返回true)  isspace(只包含空格，返回true，否则返回false)
+#join(连接字符串)
+
+#切片
+name[m:n:步长]从m开始，不包含n，到那时n数写的很大，也不存在越界问题，这个很好。
+
+#列表list  [ ]
+一个变量只能存一个值，然后列表可以存很多值，Python的列表可以保存n个数据，并且数据类型可以是不同类型，列表里面的每个称为元素。
+列表的增删改查操作
+
+insert  append  extend 要注意append和extend的区别，append添加的是一个整体，列表本身可以存储任何类型，所以append进去的
+类型不定，但是extend是合并成列表类型。
+列表中取数字则是names[][],一定要注意python中没有二维数组这种东西。
+
+in   not in
+
+index count
+index和find一样都是返回所查找数据的下标，不同的是，如果未查找到，idnex会报异常，而find返回-1
+
+del 根据下标删除
+pop 删除最后一个
+remove 根据元素删除
+
+排序：sort reverse=True 从大到小排序
+reverse 从小到大
+数字字符串都可以比较 字符串比较ASCII码
+
+#元组 和列表几乎是一样的，但是元组是不能更改的   tuple（）
+元组只有一个数，也要加逗号
+只要不涉及修改，就可以使用
+
+数据结构大多都可以完成增删改查
+#字典  dict{m:xiaoming}  可以存储键值对（items）数据类型的  key值唯一，但键值可以不一样
+字典常见的操作  get del clear
+[[],[],[]]
+[(),(),()]
+[{},{},{}]
+
+#遍历
+for num in 字符串、列表、元组、字典：
+字典：
+enumerate（）
+在for遍历时并没有记录遍历的次数，但是enumerate（）这个方法，他的第一个参数就是记录的次数
+
+# cmp  比较相等的函数
+len  max  min  del
+
+
