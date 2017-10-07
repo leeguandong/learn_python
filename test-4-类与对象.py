@@ -427,3 +427,47 @@
 # b = SingleTon(8, "kunnnn")
 # print(a)
 # print(b)
+
+# # try catch的应用场景
+# import time
+# try:
+#     f=open('test.txt')
+#     while True:
+#         content=f.readline()
+#         if len(content)==0:
+#             break
+#         time.sleep(2)
+#         print(content)
+# finally:
+#     # 不管怎么样，你都要把打开的文件关闭掉
+#     f.close()
+#     print('关闭文件')
+
+# # 自定义异常类
+# class Test(Exception):
+#     def __init__(self,length,atleast):
+#         self.length=length
+#         self.atleast=atleast
+#
+# try:
+#     s=input("请输入一个值")
+#     if len(s)<3:
+#         raise Test(len(s),3)
+# except Test as result:
+#     print("输入数据太短，太%s"%result.length)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
