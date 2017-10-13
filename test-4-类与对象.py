@@ -443,18 +443,18 @@
 #     f.close()
 #     print('关闭文件')
 
-# # 自定义异常类
-# class Test(Exception):
-#     def __init__(self,length,atleast):
-#         self.length=length
-#         self.atleast=atleast
-#
-# try:
-#     s=input("请输入一个值")
-#     if len(s)<3:
-#         raise Test(len(s),3)
-# except Test as result:
-#     print("输入数据太短，太%s"%result.length)
+# 自定义异常类
+class Test(Exception):
+    def __init__(self,length,atleast):
+        self.length=length
+        self.atleast=atleast
+
+try:
+    s=input("请输入一个值")
+    if len(s)<3:
+        raise Test(len(s),3)
+except Test as result:
+    print("输入数据太短，太%s"%result.length)
 
 
 
