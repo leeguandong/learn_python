@@ -1,0 +1,69 @@
+1.可迭代对象
+以直接作用于for循环的数据类型有以下几种：
+一类是集合数据类型，如list、tuple、dict、set、str等
+一类是generator，包括生成器和带yield的generator function
+这些可以直接作用与for循环的对象统称为可迭代对象：Iterable
+
+2.判断是否可以迭代？
+可以使用isinstance()判断一下对象是否是Iterable()对象：
+from collections import Iterable
+isinstance([],Iterable)
+
+可迭代对象是不可以使用next()方法的，但是迭代器可以。
+但是可迭代对象和迭代器是不一样的，可迭代对象不一定是迭代器
+生成器都是iterator对象，但list、dict、str虽然是iterable，却不是iterator
+把list、dict、str等iterable变成iterator可以使用iter()函数：
+isinstance(iter[],Iterator)
+True
+这样就可以对列表使用next()方法，内存存储也更小，调用更方便。
+
+test()中test指向的是一个函数体，与变量类似，如果将test赋给b，那么test()和b()是一样的，这个在python中是比较特殊的。
+闭包  函数里面调用函数，但是外部函数是不会销毁的，内部函数仍然需要调用内部函数的值
+
+函数重名，在Python中函数如果重名是不会提醒的，以最近的那个指向为准，这也是Python语法特殊的地方
+函数重名这个东西和后面Python的原理都是有一致性的
+
+装饰器原理
+在代码部分已经阐明
+当Python解释器执行到了这个代码是，那么就会自动进行装饰，而不用等到调用时，在调用之前就已经装饰好了。
+装饰器在运行时编译是自上而下，但是装饰这个过程是下而上的，先内层在外层
+
+使用装饰器对无参数的函数进行装饰
+使用装饰器对有参数的函数进行装饰    要注意，传参的时候把参数加上
+使用装饰器对不定长参数与函数进行装饰   传参 *args  **args 传多个参数即变成元组，传带=即变成字典
+带有参数的装饰器，装饰器的第一层通过输入不同的参数来控制在运行时实现不同的功能。
+def func_args():
+    def func():
+        def func_in():
+            if XXX:
+               functionName()
+            else:
+               XXX
+        return func_in
+    return func
+
+@func_args("haha")
+def test()
+
+作用域
+命名空间：
+globals  locals
+
+LEGB规则：
+先找里面的变量，找不到找外面，一层一层向外找
+locals -> enclosing function -> globals -> builtins
+本地的，闭包里面的，全局的，内建的(默认导入的)
+
+python是动态语言
+在定义时没有，但是在运行时可以添加，如果是C或者C++是不行的，
+给对象或者类添加属性，给对象添加属性是该对象所有的，其他对象无法获取，给类添加属性，如果该对象获取不到，就在类中找属性
+
+eat()这样写往往是调用函数，eat则是函数所指的变量
+
+
+
+
+
+
+
+
