@@ -113,20 +113,123 @@
 # ret = test3(3)
 # # print('test3 return value is %d' % ret)
 
-# Python动态添加属性和方法
-import types
-class Person(object):
-    def __init__(self, newName, age):
-        self.name = newName
-        self.age = age
+# # Python动态添加属性和方法
+# import types
+# class Person(object):
+#     def __init__(self, newName, age):
+#         self.name = newName
+#         self.age = age
+#
+#     def eat(self):
+#         print("---吃---%s" % self.name)
+#
+# def run(self):
+#     print("---跑---%s" % self.name)
+#
+# p = Person('laowang', 18)
+# p.eat()
+# p.run = types.MethodType(run, p)
+# p.run()
 
-    def eat(self):
-        print("---吃---%s" % self.name)
+# 斐波那契数列
+# def createNum():
+#     print('---start---')
+#     a, b = 0, 1
+#     for i in range(5):
+#         # yield 是一个生成器函数，此时的b变成了一个生成器对象
+#         yield b
+#         a, b = b, a + b
+#     print('--stop--')
+#
+# a = createNum()
+# # 以下两种方式一样的
+# # next(a)
+# a.__next__()
 
-def run(self):
-    print("---跑---%s" % self.name)
+# def test():
+#     i = 0
+#     while i < 5:
+#         temp = yield i
+#         print(temp)
+#         i+=1
+#
+# t=test()
+# t.__next__()
+# t.send('hahh')
+# # 首先必须写next()之后，在写send，否则无法send值过去，但是如果偏要首先开启send的话，可以写send(None)
+# # next()函数调用之后未调用send()即可认为并未传值，此时temp的返回值为0，所以如果想让yield返回send值，就要对程序进行控制，将返回值
+# # 保存下来
 
-p = Person('laowang', 18)
-p.eat()
-p.run = types.MethodType(run, p)
-p.run()
+# def test1():
+#     while True:
+#         print('---1---')
+#         yield None
+#
+# def test2():
+#     while True:
+#         print('---2---')
+#         yield None
+#
+# t1 = test1()
+# t2 = test2()
+# while True:
+#     t1.__next__()
+#     t2.__next__()
+
+# class Test(object):
+#     def __init__(self,func):
+#         print('---初始化---')
+#         print('func name is %s'%func.__name__)
+#         self.__func=func
+#     def __call__(self):
+#         print('---装饰器中的功能---')
+#         self.__func()
+#
+# def test():
+#     print('---test---')
+#
+# # 此时使用类做装饰器，将test传到类里面去，func=test，打印函数的名字，并将func传递给了私有属性__func,test此时是一个指向__func属性的变量
+# # test()则调用了__call__函数
+# @Test
+# def test():
+#     print('---test---')
+#
+# # test = Test(test)
+# test()
+
+# def printNum(self):
+#     print('---num---%d' % self.num)
+#
+# # 第一个变量：类的名字，第二个变量：父类，第三个变量：属性名称
+# # 第三个是个函数，这里生成对象t1之后，有了t1的属性值，调用方法
+# Test = type('Test', (), {'printNum': printNum})
+#
+# t1 = Test()
+# t1.num = 100
+# t1.printNum()
+
+# class printNum2():
+#     def printNum(self):
+#         print('---num---%d' % self.num)
+#
+# t2=printNum2()
+# t2.num=100
+# t2.printNum()
+
+# 在python2中执行
+# 第一个变量，将要生成的类的名称，第二个变量，所要生成类1的父类，第三个变量，是生成类中的属性信息
+# 在下面调用中，第一个变量是Foo,第二个变量是object，第三个变量是bar='dip'
+def upper_attr(future_class_name,future_class_paents,future_class_attr):
+
+    # 遍历属性字典中，把不是__开头的属性名变为大写
+    newAttr={}
+    for name,value in future_class_attr.items():
+        if not name.startwith('__'):
+            newAttr[name.upper()]=value
+
+    # 调用type来创建一个类
+    return type(future_class_name,future_class_paents,newAttr)
+
+class Foo(object):
+    __metaclass=upper_attr
+    bar='dip'
