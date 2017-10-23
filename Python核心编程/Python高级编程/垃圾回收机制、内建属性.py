@@ -48,30 +48,39 @@
 # # 函数这个方法指向show这个变量所创建的一片内存
 # s.show()
 
-# 万人坑
-class Preson(object):
-     def __getattribute__(self, item):
-         print('---test---')
-         if item.startwith('a'):
-             return 'haha'
-         else:
-             return self.test
+# # 内建属性调用的内部循环调用
+# class Preson(object):
+#      def __getattribute__(self, obj):
+#          print('---test---')
+#          if obj.startwith('a'):
+#              return 'haha'
+#          else:
+#              # 这一步会直接让程序挂掉，因为在程序内部调用self.test，其实就是调用t.test，会继续在__getattribute__里面找是否有这个属性，
+#              # 从而产生递归调用，最终内存耗尽，程序崩溃，不要自己程序内部再次调用self.方法，容易是程序出现问题
+#              return self.test
+#
+#      def test(self):
+#          print('heihei')
+#
+# t=Preson()
+# t.a
+# t.b
 
-     def test(self):
-         print('heihei')
+# wrapper()方法
+import functools
 
-t=Preson()
-t.a
-t.b
+def note(func):
+    'note function'
+    @functools.wraps(func)
+    def wrapper():
+        'wrapper function'
+        print('note something')
+        return func()
+    return wrapper
 
+@note
+def test():
+    'test function'
+    print('i am test')
 
-
-
-
-
-
-
-
-
-
-
+print(help(test))

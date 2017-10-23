@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/Python核心编程/迭代器、装饰器、生成器.py" line="36" />
+    <bookmark url="file://$PROJECT_DIR$/Python核心编程/Python高级编程/迭代器、装饰器、生成器.py" line="36" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="77532c43-fb73-4294-96ec-5f6bd2a1a9fa" name="Default" comment="" />
@@ -25,7 +25,7 @@
     <SUITE FILE_PATH="coverage/learn_python$Unittests_in_Test__3_.coverage" NAME="Unittests in Test (3) Coverage Results" MODIFIED="1508210355350" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python核心编程" />
     <SUITE FILE_PATH="coverage/learn_python$__1_.coverage" NAME="飞机大战 (1) Coverage Results" MODIFIED="1508069259381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python基础编程" />
     <SUITE FILE_PATH="coverage/learn_python$Unittests_in_Test.coverage" NAME="Unittests in Test Coverage Results" MODIFIED="1508210234511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python核心编程" />
-    <SUITE FILE_PATH="coverage/learn_python$.coverage" NAME="垃圾回收机制 Coverage Results" MODIFIED="1508658977450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python核心编程" />
+    <SUITE FILE_PATH="coverage/learn_python$.coverage" NAME="垃圾回收机制、内建属性 Coverage Results" MODIFIED="1508664870698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python核心编程" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -33,21 +33,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="垃圾回收机制" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python核心编程/垃圾回收机制">
+      <file leaf-file-name="系统编程-进程" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Python核心编程/Linux系统编程/系统编程-进程">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="58" column="18" lean-forward="true" selection-start-line="58" selection-start-column="18" selection-end-line="58" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="垃圾回收机制.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Python核心编程/垃圾回收机制.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="54" column="26" lean-forward="false" selection-start-line="54" selection-start-column="17" selection-end-line="54" selection-end-column="26" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -89,6 +79,9 @@
         <option value="$PROJECT_DIR$/Python核心编程/迭代器、装饰器、生成器.py" />
         <option value="$PROJECT_DIR$/Python核心编程/垃圾回收机制" />
         <option value="$PROJECT_DIR$/Python核心编程/垃圾回收机制.py" />
+        <option value="$PROJECT_DIR$/Python核心编程/垃圾回收机制、内建属性" />
+        <option value="$PROJECT_DIR$/Python核心编程/垃圾回收机制、内建属性.py" />
+        <option value="$PROJECT_DIR$/Python核心编程/垃圾回收机制、内建属性、集合" />
       </list>
     </option>
   </component>
@@ -99,8 +92,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="705" />
-    <option name="width" value="1648" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
     <option name="height" value="1064" />
   </component>
   <component name="ProjectView">
@@ -118,7 +112,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -145,8 +138,27 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learn_python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learn_python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Python核心编程" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Linux系统编程" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -156,37 +168,15 @@
     <property name="last_opened_file_path" value="D:/Tensorflow  Learning/HSI-3D_CNN/Deep-Learning-for-HSI-classification-master/Deep-Learning-for-HSI-classification-master" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Github\learn_python\Python核心编程\Python高级编程" />
+      <recent name="F:\Github\learn_python" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\Github\learn_python" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\Github\learn_python" />
-    </key>
   </component>
-  <component name="RunManager" selected="Python.垃圾回收机制">
-    <configuration default="false" name="Unittests in Test" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python核心编程" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="learn_python" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python核心编程/导入.py" />
-      <option name="CLASS_NAME" value="Test" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_CLASS" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.垃圾回收机制、内建属性">
     <configuration default="false" name="Unittests in 导入" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -198,7 +188,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="learn_python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python核心编程/导入.py" />
+      <option name="SCRIPT_NAME" value="F:\Github\learn_python\Python核心编程\Python高级编程\导入.py" />
       <option name="CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
       <option name="FOLDER_NAME" value="" />
@@ -210,7 +200,7 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="Unittests in Test (3)" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Unittests in Test" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -221,7 +211,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="learn_python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python核心编程/导入.py" />
+      <option name="SCRIPT_NAME" value="F:\Github\learn_python\Python核心编程\Python高级编程\导入.py" />
       <option name="CLASS_NAME" value="Test" />
       <option name="METHOD_NAME" value="" />
       <option name="FOLDER_NAME" value="" />
@@ -246,7 +236,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="learn_python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python核心编程/迭代器、装饰器、生成器.py" />
+      <option name="SCRIPT_NAME" value="F:\Github\learn_python\Python核心编程\Python高级编程\迭代器、装饰器、生成器.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -264,7 +254,25 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="learn_python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python核心编程/垃圾回收机制.py" />
+      <option name="SCRIPT_NAME" value="F:\Github\learn_python\Python核心编程\Python高级编程\垃圾回收机制、内建属性.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="垃圾回收机制、内建属性" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python核心编程" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="learn_python" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="F:\Github\learn_python\Python核心编程\Python高级编程\垃圾回收机制、内建属性.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -498,18 +506,18 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in Test" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in 导入" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in Test (3)" />
-      <item index="3" class="java.lang.String" itemvalue="Python.迭代器、装饰器、生成器" />
-      <item index="4" class="java.lang.String" itemvalue="Python.垃圾回收机制" />
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in 导入" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in Test" />
+      <item index="2" class="java.lang.String" itemvalue="Python.迭代器、装饰器、生成器" />
+      <item index="3" class="java.lang.String" itemvalue="Python.垃圾回收机制" />
+      <item index="4" class="java.lang.String" itemvalue="Python.垃圾回收机制、内建属性" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.垃圾回收机制" />
-        <item index="1" class="java.lang.String" itemvalue="Python.迭代器、装饰器、生成器" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in 导入" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in Test (3)" />
+        <item index="0" class="java.lang.String" itemvalue="Python.垃圾回收机制、内建属性" />
+        <item index="1" class="java.lang.String" itemvalue="Python.垃圾回收机制" />
+        <item index="2" class="java.lang.String" itemvalue="Python.迭代器、装饰器、生成器" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in 导入" />
         <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in Test" />
       </list>
     </recent_temporary>
@@ -563,30 +571,30 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="705" y="0" width="1648" height="1064" extended-state="1" />
+    <frame x="-9" y="-9" width="1938" height="1064" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18293992" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32963374" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Debug Logs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2769744" sideWeight="0.50214595" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33962265" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22024472" sideWeight="0.49785408" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32864866" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18360864" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Salesforce" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2247446" sideWeight="0.49785408" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -602,7 +610,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test-2-函数.py" />
     <entry file="file://$PROJECT_DIR$/notes-2-函数" />
     <entry file="file://$PROJECT_DIR$/notes-1" />
     <entry file="file://$PROJECT_DIR$/notes-3-文件" />
@@ -663,7 +670,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python核心编程/模块导入、拷贝、运算">
+    <entry file="file://$PROJECT_DIR$/Python核心编程/Python高级编程/模块导入、拷贝、运算">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="801">
           <caret line="69" column="46" lean-forward="false" selection-start-line="69" selection-start-column="46" selection-end-line="69" selection-end-column="46" />
@@ -681,42 +688,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python核心编程/导入.py">
+    <entry file="file://$PROJECT_DIR$/Python核心编程/Python高级编程/导入.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6">
+        <state relative-caret-position="330">
           <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python核心编程/迭代器、装饰器、生成器.py">
+    <entry file="file://$PROJECT_DIR$/Python核心编程/Python高级编程/垃圾回收机制、内建属性.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7128">
+        <state relative-caret-position="2475">
+          <caret line="75" column="16" lean-forward="false" selection-start-line="75" selection-start-column="16" selection-end-line="75" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python核心编程/Python高级编程/迭代器、装饰器、生成器">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1188">
+          <caret line="36" column="19" lean-forward="false" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python核心编程/Python高级编程/迭代器、装饰器、生成器.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1395">
           <caret line="216" column="13" lean-forward="false" selection-start-line="216" selection-start-column="13" selection-end-line="216" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python核心编程/迭代器、装饰器、生成器">
+    <entry file="file://$PROJECT_DIR$/Python核心编程/Python高级编程/垃圾回收机制、内建属性、集合">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1881">
-          <caret line="3" column="9" lean-forward="false" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+        <state relative-caret-position="1098">
+          <caret line="103" column="27" lean-forward="true" selection-start-line="103" selection-start-column="27" selection-end-line="103" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python核心编程/垃圾回收机制">
+    <entry file="file://$PROJECT_DIR$/Python核心编程/Linux系统编程/系统编程-进程">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="58" column="18" lean-forward="true" selection-start-line="58" selection-start-column="18" selection-end-line="58" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python核心编程/垃圾回收机制.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="54" column="26" lean-forward="false" selection-start-line="54" selection-start-column="17" selection-end-line="54" selection-end-column="26" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

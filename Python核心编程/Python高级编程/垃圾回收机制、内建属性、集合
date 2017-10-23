@@ -62,17 +62,48 @@ __bases__  类的所有父类构成元素
 
 内建属性：
 只要是变量名，无论是函数名，还是变量名，都是指向一块内存空间
-对象中并没有函数，对象先通过属性构建了函数，在将函数返回回来调用
+对象中并没有函数，对象先通过属性构建了函数，在将 函数返回回来调用
 
+内建方法 内建函数有很多
+range函数： range在python2中是列表，在python3中是一个生成器，xrange和range用法相似，但是前者更省内存
 
+map函数：  映射关系函数
+map(lambda x:x*x,(1,2,3))
 
+filter()会对指定序列执行过滤操作
+filter(lambda x:x%2, [1,2,3,4])
+filter(None,'she')
 
+reduce() 求累积和的函数
+from functools import reduce
+reduce(lambda x,y:x+y , ['aa','bb','cc'],'dd')
 
+set 集合
+1.可以去重
+2.可以求交、并、差、对称差集(去掉了两个集合相互重合的那部分)
 
+functools模块
+wrapper()方法  这个方法可以消除装饰器的副作用，使得已经装饰的函数在调用查看文档时仍然显示原函数
 
-
-
-
+python模块标准库
+builtins  内建函数默认加载
+os     操作系统接口
+sys   Python自身运行环境
+functools   常用的工具
+json       编码和解码  json对象
+logging    记录日志，调试
+multiprocessing   多进程
+threading      多线程
+copy   拷贝
+time   时间
+datatime  日期和时间
+calendar  日历
+hashlib   加密算法
+random    生成随机数
+re    字符串正则匹配
+socket   标准的BSD Sockets API
+shutil   文件和目录管理
+glob     基于文件通配符搜索
 
 
 
