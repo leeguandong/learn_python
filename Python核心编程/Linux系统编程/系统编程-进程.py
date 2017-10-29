@@ -70,43 +70,38 @@ fork()部分代码均在ubuntu中运行
 #     else:
 #         print('---2---')
 
+# # frok()只能在linux中使用，不具有跨平台性，现在使用一个跨平台的创建子进程的类
+# from multiprocessing import Process
+# import time
+#
+# def test():
+#     while True:
+#         print('---test---')
+#         time.sleep(1)
+#
+# # 下面这段代码就是测试时使用，调用的时候不使用
+# if __name__ == '__main__':
+#     p=Process(target=test)
+#     p.start()
+#     while True:
+#         print('---main---')
+#         time.sleep(1)
 
-# frok()只能在linux中使用，不具有跨平台性，现在使用一个跨平台的创建子进程的类
+# 这是创建子进程的第二种方法，让子类继承父类Process父类
 from multiprocessing import Process
 import time
 
-def test():
-    while True:
-        print('---test---')
-        time.sleep(1)
+class MyNewProcess(Process):
+    def run(self):
+        while True:
+            print('---1---')
+            time.sleep(1)
 
-# 下面这段代码就是测试时使用，调用的时候不使用
-if __name__ == '__main__':
-    p=Process(target=test)
+if __name__=='__mian__':
+    p = MyNewProcess()
+    # 调用p.start()方法，p会先去父类中寻找start()，然后在Process的start方法中调用run方法
     p.start()
+
     while True:
-        print('---main---')
+        print('---Main---')
         time.sleep(1)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
