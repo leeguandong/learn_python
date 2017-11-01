@@ -87,21 +87,99 @@ fork()部分代码均在ubuntu中运行
 #         print('---main---')
 #         time.sleep(1)
 
-# 这是创建子进程的第二种方法，让子类继承父类Process父类
-from multiprocessing import Process
-import time
+# # 这是创建子进程的第二种方法，让子类继承父类Process父类
+# from multiprocessing import Process
+# import time
+#
+# class MyNewProcess(Process):
+#     def run(self):
+#         while True:
+#             print('---1---')
+#             time.sleep(1)
+#
+# if __name__=='__mian__':
+#     p = MyNewProcess()
+#     # 调用p.start()方法，p会先去父类中寻找start()，然后在Process的start方法中调用run方法
+#     p.start()
+#
+#     while True:
+#         print('---Main---')
+#         time.sleep(1)
 
-class MyNewProcess(Process):
-    def run(self):
-        while True:
-            print('---1---')
-            time.sleep(1)
+# # 进程池
+# from multiprocessing import Pool
+# import os
+# import random
+# import time
+#
+# def worker(num):
+#     for i in range(5):
+#         print('===pid=%d==num=%d='%(os.getpid(),num))
+#         time.sleep(1)
+#
+# # 3表示进程池中最多有三个进程一起执行
+# pool=Pool(3)
+#
+# for i in range(10):
+#     print('---%d---'%i)
+#     # 向进程中添加任务
+#     # 注意：如果添加的任务数量超过了进程池中进程的个数的话，那么就不会接着往进程池中添加，如果还没有执行的话，他会等待前面的进程结束，然后在往
+#     # 进程池中添加新进程
+#     pool.apply_async(worker,(i,))
+#
+# pool.close() # 关闭进程池
+# pool.join()  # 主进程在这里等待，只有子进程全部结束之后，在会开启主线程
 
-if __name__=='__mian__':
-    p = MyNewProcess()
-    # 调用p.start()方法，p会先去父类中寻找start()，然后在Process的start方法中调用run方法
-    p.start()
+# 案例 多进程拷贝文件
+from multiprocessing import Pool, Manager
+import os
 
+def copyFileTask(name, oldFolderName, newFolderNmae, queue):
+    "完成copy一个文件的功能"
+    fr = open(oldFolderName + '/' + name)
+    # name是放在目录后面，但一个name，找不到路径的
+    fw = open(newFolderNmae + '/' + name, 'w')
+
+    content = fr.read()
+    fw.write(content)
+
+    fr.close()
+    fw.close()
+
+    queue.put(name)
+
+def main():
+    # 0.获取原来要copy的文件夹的名字
+    oldFolderName = input('请输入文件夹的名字：')
+
+    # 1.创建一个文件夹
+    newFolderNmae = oldFolderName + '复件'
+    os.mkdir(newFolderNmae)
+
+    # 2.获取old文件夹中的所有的文件夹名
+    fileNames = os.listdir(oldFolderName)
+
+    # 3.使用多进程的方式copy，原文件中所有文件到新的文件夹中
+    pool = Pool(5)
+    queue = Manager().queue()
+
+    # 不能把列表给子进程，如果给列表的话，相当于不是多任务执行，而是一个进程把所有的列表都在复制，所以这个用循环，每个文件给一个子进程
+    for name in fileNames:
+        pool.apply_async(copyFileTask, args=(name, oldFolderName, newFolderNmae, queue))
+
+    num = 0
+    allNum = len(fileNames)
     while True:
-        print('---Main---')
-        time.sleep(1)
+        queue.get()
+        num += 1
+        copyRate = num / allNum
+        print('\rcopy的进度是：%.2f%%' % (copyRate * 100), end='')
+        if num == allNum:
+            break
+
+        # 原本主进程在这里等着子进程完全结束，现在利用这段时间进行显示进度
+        # pool.close()
+        # pool.join()
+
+if __name__ == '__main__':
+    main()
