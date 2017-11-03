@@ -110,36 +110,70 @@
 # p2 = Thread(target=test2)
 # p2.start()
 
-# 避免全局变量被修改的操作2  互斥锁 不占用资源，效率更高
-from threading import Thread, Lock
+# # 避免全局变量被修改的操作2  互斥锁 不占用资源，效率更高
+# from threading import Thread, Lock
+#
+# g_num = 0
+#
+# def test1():
+#     global g_num
+#     # 上锁操作，一旦锁上，其他线程会被堵塞直到这个锁被解开为止
+#     mutex.acquire()
+#     for i in range(1000000):
+#         # mutex.acquire()
+#         # 放在里面也是可以的，但是第一个print就不是1000000，因为抢的次数并不是两者统一的，是两者的当时的总和
+#         g_num += 1
+#     # 开锁操作，一旦执行完毕即开锁，让其他线程抢锁
+#     mutex.release()
+#
+#     print('--test1--g_num=%d' % g_num)
+#
+# def test2():
+#     global g_num
+#     mutex.acquire()
+#     for i in range(1000000):
+#         g_num += 1
+#     mutex.release()
+#
+#     print('--test2--g_num=%d' % g_num)
+#
+# # 创建一把互斥锁，默认是没有上锁的
+# mutex = Lock()
+#
+# p1 = Thread(target=test1)
+# p1.start()
+#
+# p2 = Thread(target=test2)
+# p2.start()
 
-g_num = 0
+# # 线程中非全局变量是不共享的
+# from threading import Thread
+# import threading, time
+#
+# def test1():
+#     g_num = 100
+#     name = threading.current_thread().name
+#     print('---线程的名字是%s' % name)
+#     if name == 'Thread-1':
+#         g_num += 1
+#         print()
+#     else:
+#         time.sleep(2)
+#     print('---线程的名字是%s--g_num=%d' % (name, g_num))
+#
+# p1 = Thread(target=test1)
+# p1.start()
+#
+# p2 = Thread(target=test1)
+# p2.start()
 
-def test1():
-    global g_num
-    # 上锁操作，一旦锁上，其他线程会被堵塞直到这个锁被解开为止
-    mutex.acquire()
-    for i in range(1000000):
-        g_num += 1
-    # 开锁操作，一旦执行完毕即开锁，让其他线程抢锁
-    mutex.release()
+# 生产者与消费者模式
+import threading
+from queue import Queue
 
-    print('--test1--g_num=%d' % g_num)
+class Produccer(threading.Thread):
+    def 
 
-def test2():
-    global g_num
-    mutex.acquire()
-    for i in range(1000000):
-        g_num += 1
-    mutex.release()
 
-    print('--test2--g_num=%d' % g_num)
 
-# 创建一把互斥锁，默认是没有上锁的
-mutex = Lock()
 
-p1 = Thread(target=test1)
-p1.start()
-
-p2 = Thread(target=test2)
-p2.start()
