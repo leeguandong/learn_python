@@ -167,12 +167,78 @@
 # p2 = Thread(target=test1)
 # p2.start()
 
-# 生产者与消费者模式
-import threading
-from queue import Queue
+# # 生产者与消费者模式
+# # 这个程序中有两个生产者和5个消费者，产生每次生产100个，只要缓冲池(queue)里面产品个数少于1000，即向里面添加数据
+# # 消费者每个消费3个，只要缓冲池里面数据大于100，即向外取出数据
+# import threading
+# import time
+# from queue import Queue
+#
+# class Produccer(threading.Thread):
+#     def run(self):
+#         global queue
+#         count = 0
+#         while True:
+#             if queue.qsize() < 1000:
+#                 for i in range(100):
+#                     count = count + 1
+#                     msg = '生成产品' + str(count)
+#                     queue.put(msg)
+#                     print(msg)
+#             time.sleep(0.5)
+#
+#
+# class Consumer(threading.Thread):
+#     def run(self):
+#         global queue
+#         while True:
+#             if queue.qsize() > 100:
+#                 for i in range(3):
+#                     msg = self.name + '消费了' + queue.get()
+#                     print(msg)
+#             time.sleep(1)
+#
+#
+# if __name__ == '__main__':
+#     queue = Queue()
+#     for i in range(500):
+#         queue.put('初始产品' + str(i))
+#     for i in range(2):
+#         p = Produccer()
+#         p.start()
+#     for i in range(5):
+#         c = Consumer()
+#         c.start()
 
-class Produccer(threading.Thread):
-    def 
+# # 异步
+# # 下面的代码就是主进程一直在循环，当子进程执行完毕时候，系统通知主进程去进行回调操作，并且能拿到子进程的返回值
+# # 这个程序很好的阐述了异步，主进程一直在执行，他也不知道什么时候执行异步操作
+# from multiprocessing import Pool
+# import time
+# import os
+#
+# def test():
+#     print('--进程池中的进程--pid=%d,ppid=%d--' % (os.getpid(), os.getppid()))
+#     for i in range(3):
+#         print('---%d---' % i)
+#         time.sleep(1)
+#     return 'haha'
+#
+# def test2(args):
+#     print('---callback func --pid=%d' % os.getpid())
+#     print('---callback func --args=%s' % args)
+#
+# if __name__ == '__main__':
+#     pool = Pool(3)
+#     pool.apply_async(func=test, callback=test2)
+#     while True:
+#         time.sleep(1)
+#         print('---主进程-pid=%d---' % os.getpid())
+
+# 如何解决线程GIL的问题，关键代码用C写，C不存在GIL的问题
+
+
+
 
 
 
