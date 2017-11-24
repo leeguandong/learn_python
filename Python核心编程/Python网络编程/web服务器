@@ -1,0 +1,47 @@
+TCP的十种状态(在两边的是状态)
+客户机                 服务器
+SYN_SENT             LISTEN
+            SYN
+                     SYN_RECV
+            SYN+ACK
+ESTABLISHED
+            ACK
+                     ESTABLISHED
+
+FIN_WAIT1
+            FIN
+                     CLOSE_WAIT
+            ACK
+FIN_WAIT2            LAST_ACK
+            FIN
+TIME_WAIT
+            ACK
+                     CLOSED
+CLOSED
+
+TTL 在网络上经过的路由器的最大值，每经过一个，就减1
+MSL 一个数据包在网络上的存活时间，一般是1到2分钟
+从TIME)WAIT到CLOSED大概2MSL
+
+listen的队列问题
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
