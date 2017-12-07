@@ -29,6 +29,7 @@
           <option value="Tools.visualize" />
           <option value="Tools.dataset" />
           <option value="network.self" />
+          <option value="Python核心编程.web服务器案例.Mywebframework.MyWebServer" />
         </list>
       </option>
     </inspection_tool>

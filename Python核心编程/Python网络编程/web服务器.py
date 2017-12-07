@@ -260,18 +260,47 @@
 # grl1.switch()
 
 # gevent协程
+# import gevent
+#
+# def f(n):
+#     for i in range(n):
+#         print(gevent.getcurrent(), i)
+#         # 用来模拟耗时操作，gevent一遇到耗时操作时就会自动切换
+#         gevent.sleep(1)
+#
+# g1 = gevent.spawn(f, 5)
+# g2 = gevent.spawn(f, 5)
+# g3 = gevent.spawn(f, 5)
+#
+# g1.join()
+# g2.join()
+# g3.join()
+
+# gevent TCP服务器
+import sys
+import time
 import gevent
 
-def f(n):
-    for i in range(n):
-        print(gevent.getcurrent(), i)
-        # 用来模拟耗时操作，gevent一遇到耗时操作时就会自动切换
-        gevent.sleep(1)
+# 导入gevent中的socket，monkey是对底层支持的代码
+from gevent import socket, monkey
+monkey.patch_all()
 
-g1 = gevent.spawn(f, 5)
-g2 = gevent.spawn(f, 5)
-g3 = gevent.spawn(f, 5)
+def handle_request(conn):
+    while True:
+        data = conn.recv(1024)
+        if not data:
+            conn.close()
+            break
+        print('recv:', data)
+        conn.send(data)
 
-g1.join()
-g2.join()
-g3.join()
+def server(port):
+    s = socket.socket()
+    s.bind('', port)
+    s.listen()
+    while True:
+        cli, addr = s.accept()
+        gevent.spawn(handle_request(), cli)
+
+if __name__ == '__main__':
+    server(7788)

@@ -1,0 +1,113 @@
+##############################################################
+应用层  解决要传递什么数据
+传输层  解决如何传输数据   可以理解成快递公司
+网络层  ip 可以理解为地理位置坐标
+链路层  具体的传输工具
+
+对应应用层来说，只要双方协定统一的协议，能听懂双方协议，取决于应用场景
+
+socket底层由C封装，是由操作系统支持，没有操作系统，socket实现不了，现在写一个最基本的操作系统，也是可以把网络支持这部分砍掉的
+socket的参数也很多
+
+如何把网上传输的数据变成丰富多彩的数据？
+HTML 超文本标记语言 规定几种不同的格式，就是markdown的那个格式
+浏览器可以按照HTML的语法来渲染HTML
+浏览器核心不同，内核算法不同，就决定了渲染的效果和速度不同
+CSS样式
+与网页交互  javasript 前端脚本语言
+
+HTTP协议
+底层是由TCP实现的
+
+HTTP请求方式
+GET 获取数据
+POST 修改数据，可以让浏览器修改
+PUT 保存数据
+DELETE 删除数据
+OPTION 询问服务器的某种支持特性
+HEAD 返回报文头
+
+客户端                   服务器
+so=socket.socket()   socket=socket.socket()
+so.connect()         socket.bind()
+so.send()            socket.listen()
+so.recv()            cli_so=socket.accept()
+close()              so.send()
+                     so.recv()
+客户端发送请求非服务器，服务器读出来数据，再进行处理发回去，服务器端的编程就在send和recv之间进行
+
+HTTP协议  规定下面的报文信息
+服务器发送：
+HTTP/1.1 200 OK                          # 200 状态码
+# 响应头
+Cache-Control: private
+Connection: Keep-Alive
+Content-Encoding: gzip
+Content-Type: text/html;charset=utf-8
+Date: Mon, 27 Nov 2017 04:08:12 GMT
+Expires: Mon, 27 Nov 2017 04:08:12 GMT
+Server: BWS/1.0
+Tracecode: 04925434200561479690112712
+Vary: Accept-Encoding
+Content-Length: 78
+
+客户端发送
+GET /home/xman/data/tipspluslist?indextype=manht&_req_seqid=0xb9c359d80002770a&asyn=1&t=1511755752796&sid=1463_21094_18559_25178_20719 HTTP/1.1
+# 请求头 字典
+Host: www.baidu.com
+Connection: keep-alive
+Accept: text/plain, */*; q=0.01
+X-Requested-With: XMLHttpRequest
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+Referer: https://www.baidu.com/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.8
+Cookie: BAIDUID=1C294FE35C3B7A3B5CB26B8FCB2409B5:FG=1; BIDUPSID=E36F12D4FE4702DEE10DE02D0DBDF2F9; PSTM=1499129600; MCITY=-%3A; ispeed_lsm=0; BDUSS=S1YTVpwY2ZWaVRmVn53SC1YWWZ0anVLYTBoNHRwcC0xNWFNdGdSbzFRZzVzVHRhQVFBQUFBJCQAAAAAAAAAAAEAAACD8fUsa3VubGkxMQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADkkFFo5JBRaQ; pgv_pvi=6022987776; pgv_si=s7733102592; BDRCVFR[23po9f87-g0]=aeXf-1x8UdYcs; BD_HOME=1; H_PS_PSSID=1463_21094_18559_25178_20719; BD_UPN=12314353; sugstore=1
+Content-Length: 78  # 请求体里面要读的数据
+\r\n   换行
+请求体  存放数据的
+
+url 全局资源定位标识 定位资源位于哪个文件目录里
+uri 全局资源标识，url是其子集，标识有很多，位置只是其中一种手段
+urn 名字，要有名字和位置的映射
+
+GET方式是没有请求体的，参数直接放在url后面，叫做查询字符串
+？key1=value1&key2=value2......
+网址后面的字符串是有大小的，不能无限增加
+HTTP 是无状态的，他不知道相同浏览器的不断请求，但是长连接虽然会复用通道，但服务器仍然不会保留浏览器访问信息，
+
+##################################################
+APP应用与后台进行交互时应用的也是HTTP
+爬虫是相对于客户端而言，而django和torrage是面对服务端的
+
+baidu为什么会立即知道你的网站？
+客户端             服务器
+浏览器            www.sina.com
+APP              www.baidu.com
+爬虫
+爬虫相当于主动在网络上发布HTTP协议，建立同网站的连接，之后，解析网站代码，并将数据进行保存和清洗，存入数据库
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
