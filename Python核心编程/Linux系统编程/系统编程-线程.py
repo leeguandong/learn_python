@@ -210,30 +210,30 @@
 #         c = Consumer()
 #         c.start()
 
-# # 异步
-# # 下面的代码就是主进程一直在循环，当子进程执行完毕时候，系统通知主进程去进行回调操作，并且能拿到子进程的返回值
-# # 这个程序很好的阐述了异步，主进程一直在执行，他也不知道什么时候执行异步操作
-# from multiprocessing import Pool
-# import time
-# import os
-#
-# def test():
-#     print('--进程池中的进程--pid=%d,ppid=%d--' % (os.getpid(), os.getppid()))
-#     for i in range(3):
-#         print('---%d---' % i)
-#         time.sleep(1)
-#     return 'haha'
-#
-# def test2(args):
-#     print('---callback func --pid=%d' % os.getpid())
-#     print('---callback func --args=%s' % args)
-#
-# if __name__ == '__main__':
-#     pool = Pool(3)
-#     pool.apply_async(func=test, callback=test2)
-#     while True:
-#         time.sleep(1)
-#         print('---主进程-pid=%d---' % os.getpid())
+# 异步
+# 下面的代码就是主进程一直在循环，当子进程执行完毕时候，系统通知主进程去进行回调操作，并且能拿到子进程的返回值
+# 这个程序很好的阐述了异步，主进程一直在执行，他也不知道什么时候执行异步操作
+from multiprocessing import Pool
+import time
+import os
+
+def test():
+    print('--进程池中的进程--pid=%d,ppid=%d--' % (os.getpid(), os.getppid()))
+    for i in range(3):
+        print('---%d---' % i)
+        time.sleep(1)
+    return 'haha'
+
+def test2(args):
+    print('---callback func --pid=%d' % os.getpid())
+    print('---callback func --args=%s' % args)
+
+if __name__ == '__main__':
+    pool = Pool(3)
+    pool.apply_async(func=test, callback=test2)
+    while True:
+        time.sleep(1)
+        print('---主进程-pid=%d---' % os.getpid())
 
 # 如何解决线程GIL的问题，关键代码用C写，C不存在GIL的问题
 
