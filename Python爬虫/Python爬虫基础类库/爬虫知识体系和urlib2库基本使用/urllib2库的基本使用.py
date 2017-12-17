@@ -32,7 +32,6 @@ sys.setdefaultencoding('utf8')
 # # 打印响应内容
 # # print html
 
-
 # # coding=utf-8
 # # 为了防止反爬虫做的优化
 # import urllib2

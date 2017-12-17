@@ -126,14 +126,144 @@ sys.setdefaultencoding('utf8')
 #
 # print response_peng.read()
 
-# re模块正则表达式的函数用法
-import re
+# # re模块正则表达式的函数用法
+# import re
+#
+# str = 'abc123'
+# re.match(str, 3, 5)
+#
+# # re.I忽略大小写，re.S全本匹配
+# patten = re.compile(r'([a-z]+)([a-z]+)', re.I)
+#
+# m = patten.match('Hello world hello python')
+# m.span()
 
-str = 'abc123'
-re.match(str, 3, 5)
+# # 案例
+# # 使用正则表达式爬内涵段子
+# import urllib2
+# import re
+#
+# class Spider():
+#     def __init__(self):
+#         '''下载页面'''
+#         # 初始化起始位置
+#         self.page = 2
+#         # 爬取开关
+#         self.switch = True
+#
+#     def loadPage(self):
+#         '''处理每页的段子'''
+#         print '正在下载'
+#         url = 'http://www.neihan8.com/article/index_' + str(self.page) + '.html'
+#         headers = {
+#             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36"}
+#         request = urllib2.Request(url, headers=headers)
+#         response = urllib2.urlopen(request)
+#
+#         # 获取每页的HTML源码字符串
+#         html = response.read()
+#
+#         # 创建正则表达式规则对象，匹配每页里的段子
+#         patten = re.compile('<div\sclass="desc">(.*?)</div>', re.S)
+#
+#         # 将正则匹配对象应用到html源码字符串中，返回列表
+#         content_list = patten.findall(html)
+#
+#         # 调用dealPage()处理段子中的不规则符号
+#         self.dealPage(content_list)
+#
+#     def dealPage(self, content_list):
+#         '''处理每页的段子'''
+#         for item in content_list:
+#             # item = item.replace(' ', '')
+#             print item
+#             self.writePage(item)
+#
+#     def writePage(self, item):
+#         '''把每页的段子写入文件里'''
+#         print '正在写入'
+#         # a 表示在一个文档里面可以多次输入
+#         with open('duanzi.txt', 'a') as f:
+#             f.write(item)
+#
+#     def startWork(self):
+#         '''控制爬虫的进度'''
+#         # 循环执行，直到self.swith ==False
+#         while self.switch:
+#             self.loadPage()
+#             command = raw_input('继续输入请按回车，结束输入请按quit')
+#             if command == 'quit':
+#                 self.switch = False
+#             self.page += 1
+#         print '谢谢使用'
+#
+# if __name__ == '__main__':
+#     spider = Spider()
+#     spider.startWork()
 
-# re.I忽略大小写，re.S全本匹配
-patten = re.compile(r'([a-z]+)([a-z]+)', re.I)
+# 案例
+# 贴吧图片下载案例
+# 首先找贴吧网页，其次处理贴吧的页面，紧接着处理每一页贴吧，每一页贴吧上面有一条一条的信息，最后对每条信息进入其页面对其页面中的图片进行处理
+import urllib
+import urllib2
+from lxml import etree
 
-m = patten.match('Hello world hello python')
-m.span()
+def loadPage(url):
+    request = urllib2.Request(url)
+    html = urllib2.urlopen(request).read()
+    # 解析HTML文档为HTML DOM模型
+    content = etree.HTML(html)
+    # 返回所有匹配成功的列表集合
+    link_list = content.xpath('//div[@class="t_con cleafix"]/div/div/div/a/@href')
+
+    for link in link_list:
+        fullurl = "http://tieba.baidu.com" + link
+        # 组合为每个帖子的连接
+        loadImage(fullurl)
+
+# 取出每个帖子里的每个图片链接
+def loadImage(url):
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_0) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.56 Safari/535.11"}
+    request = urllib2.Request(url, headers=headers)
+    html = urllib2.urlopen(request).read()
+    # 解析
+    content = etree.HTML(html)
+    # 取出帖子里每层主发送的图片连接集合
+    link_list = content.xpath('//img[@class="BDE_Image"]/@src')
+    # 取出每个图片的连接
+    for link in link_list:
+        # print link
+        wirteImage(link)
+
+def wirteImage(link):
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_0) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.56 Safari/535.11"}
+    request = urllib2.Request(url, headers=headers)
+    image = urllib2.urlopen(request).read()
+    # 取出连接后10为为文件名
+    filename = link[-10:]
+    # 写入到本地磁盘文件内
+    with open(filename, 'wb') as f:
+        f.write(image)
+    print "已经成功下载 " + filename
+
+def tiebaSpider(url, beginPage, endPage):
+    '''贴吧爬虫调度器，负责组合处理每个网页的url'''
+    for page in range(beginPage, endPage + 1):
+        pn = (page - 1) * 50
+        # filename = "第" + str(page) + "页.html"
+        fullurl = url + "&pn=" + str(pn)
+        # print fullurl
+        loadPage(fullurl)
+        print "谢谢使用"
+
+if __name__ == '__main__':
+    kw = raw_input("请输入需要爬取的贴吧名:")
+    beginPage = int(raw_input("请输入起始页："))
+    endPage = int(raw_input("请输入结束页："))
+
+    url = "http://tieba.baidu.com/f?"
+    key = urllib.urlencode({"kw": kw})
+    fullurl = url + key
+    tiebaSpider(fullurl, beginPage, endPage)

@@ -80,44 +80,32 @@ patten.sub
 
 match(str, begin, end)
 search(str,begin,end)
+findall(sre,begin,end)
 
+#####################################################\
+案例：正则表达式内涵段子爬虫案例
+<div class="desc">  </div>
+匹配规则:
+patten = re.compile('<div\sclass='desc'>(.*?)</div>',re.S)
+content_list = patten.findall(html)
 
+xml解析库和贴吧图片下载案例
+正则处理HTML文档很累，用XPath，我们可以先将HTML文件转换成XML文档，然后用XPath查找HTML节点或者元素
 
+百度贴吧  美女吧
+在检查网页中找：
+第一上一级：
+class="threadlist_title pull_left j_th_tit  member_thread_title_frs "
+class="threadlist_title pull_left j_th_tit "
+第二上一级：
+class="threadlist_lz clearfix"
+class="threadlist_lz clearfix"
 
+匹配路径的原则：
+当前路径如果匹配不到，就在往上找路径，直到匹配到哪个路径为止
 
+找连接的代码：
+//div[@class="threadlist_lz clearfix"]//a[class="j_th_tit "]/@href
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+每张图片都有自己独一无二的哈希值
 

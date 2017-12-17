@@ -23,7 +23,8 @@
     <SUITE FILE_PATH="coverage/learn_python$Unittests_in_Test__1_.coverage" NAME="Unittests in Test (1) Coverage Results" MODIFIED="1508208227484" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python核心编程" />
     <SUITE FILE_PATH="coverage/learn_python$web_1.coverage" NAME="web服务器案例-1 Coverage Results" MODIFIED="1512204381251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python核心编程/web服务器案例" />
     <SUITE FILE_PATH="coverage/learn_python$Unittests_in_.coverage" NAME="Unittests in 导入 Coverage Results" MODIFIED="1508210827429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python核心编程" />
-    <SUITE FILE_PATH="coverage/learn_python$test.coverage" NAME="test Coverage Results" MODIFIED="1504447116918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/learn_python$xml.coverage" NAME="高级用法以及正则和xml解析 Coverage Results" MODIFIED="1513517568180" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python爬虫/Python爬虫基础类库/urllib2高级用法以及正则和xml解析" />
+    <SUITE FILE_PATH="coverage/learn_python$test.coverage" NAME="test Coverage Results" MODIFIED="1513517031642" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python爬虫/Python爬虫基础类库/urllib2高级用法以及正则和xml解析" />
     <SUITE FILE_PATH="coverage/learn_python$__1_.coverage" NAME="飞机大战 (1) Coverage Results" MODIFIED="1508069259381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python基础编程" />
     <SUITE FILE_PATH="coverage/learn_python$download_cat.coverage" NAME="download_cat Coverage Results" MODIFIED="1491808436086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/learn_python$web_2.coverage" NAME="web服务器案例-2 Coverage Results" MODIFIED="1512215490031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python核心编程/web服务器案例" />
@@ -46,21 +47,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="高级用法" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Python爬虫/Python爬虫基础类库/urllib2高级用法以及正则和xml解析/高级用法">
+      <file leaf-file-name="多线程爬虫" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Python爬虫/Python爬虫基础类库/03.多线程爬虫和Selenium+PhantomJS/多线程爬虫">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-24">
-              <caret line="82" column="0" lean-forward="true" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="高级用法以及正则和xml解析.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python爬虫/Python爬虫基础类库/urllib2高级用法以及正则和xml解析/高级用法以及正则和xml解析.py">
+      <file leaf-file-name="多线程爬虫.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Python爬虫/Python爬虫基础类库/03.多线程爬虫和Selenium+PhantomJS/多线程爬虫.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="783">
-              <caret line="139" column="0" lean-forward="true" selection-start-line="139" selection-start-column="0" selection-end-line="139" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -88,9 +89,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Python核心编程/网络编程/网络编程概述  Socket" />
-        <option value="$PROJECT_DIR$/Python核心编程/网络编程/网络编程概述  Socket.py" />
-        <option value="$PROJECT_DIR$/Python核心编程/网络编程/网络编程-ftp下载器" />
         <option value="$PROJECT_DIR$/Python核心编程/网络编程/网络通信过程.py" />
         <option value="$PROJECT_DIR$/Python核心编程/Python网络编程/网络编程概述  Socket" />
         <option value="$PROJECT_DIR$/Python核心编程/Python网络编程/网络通信过程.py" />
@@ -133,12 +131,15 @@
         <option value="$PROJECT_DIR$/Python数据库/MySQL/MySQL基础/Mysql基础.py" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/Python核心编程/Linux系统编程/系统编程-线程.py" />
-        <option value="$PROJECT_DIR$/Python爬虫/Python爬虫基础类库/爬虫知识体系和urlib2库基本使用/urllib2库的基本使用.py" />
         <option value="$PROJECT_DIR$/Python爬虫/Python爬虫基础类库/爬虫知识体系和urlib2库基本使用/爬虫知识体系" />
         <option value="$PROJECT_DIR$/Python爬虫/Python爬虫基础类库/urllib2高级用法以及正则和xml解析/代码.py" />
         <option value="$PROJECT_DIR$/Python爬虫/Python爬虫基础类库/urllib2高级用法以及正则和xml解析/Handler、代理.py" />
-        <option value="$PROJECT_DIR$/Python爬虫/Python爬虫基础类库/urllib2高级用法以及正则和xml解析/高级用法以及正则和xml解析.py" />
+        <option value="$PROJECT_DIR$/Python爬虫/Python爬虫基础类库/urllib2高级用法以及正则和xml解析/duanzi.txt" />
         <option value="$PROJECT_DIR$/Python爬虫/Python爬虫基础类库/urllib2高级用法以及正则和xml解析/高级用法" />
+        <option value="$PROJECT_DIR$/Python爬虫/Python爬虫基础类库/爬虫知识体系和urlib2库基本使用/urllib2库的基本使用.py" />
+        <option value="$PROJECT_DIR$/Python爬虫/Python爬虫基础类库/urllib2高级用法以及正则和xml解析/test.py" />
+        <option value="$PROJECT_DIR$/Python爬虫/Python爬虫基础类库/urllib2高级用法以及正则和xml解析/高级用法以及正则和xml解析.py" />
+        <option value="$PROJECT_DIR$/Python爬虫/Python爬虫基础类库/03.多线程爬虫和Selenium+PhantomJS/多线程爬虫.py" />
       </list>
     </option>
   </component>
@@ -213,10 +214,6 @@
               <option name="myItemId" value="Python爬虫基础类库" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="爬虫知识体系和urlib2库基本使用" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -236,7 +233,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="urllib2高级用法以及正则和xml解析" />
+              <option name="myItemId" value="03.多线程爬虫和Selenium+PhantomJS" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -253,10 +250,6 @@
     <property name="settings.editor.splitter.proportion" value="0.23474178" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\Github\learn_python" />
-      <recent name="F:\Github\learn_python\Python核心编程\Python网络编程" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\Github\learn_python\Python数据结构与算法\树与树算法" />
       <recent name="F:\Github\learn_python\Python数据结构与算法\排序与搜索" />
@@ -264,44 +257,12 @@
       <recent name="F:\Github\learn_python\Python核心编程\web服务器案例\html" />
       <recent name="F:\Github\learn_python\Python核心编程\web服务器案例" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Github\learn_python" />
+      <recent name="F:\Github\learn_python\Python核心编程\Python网络编程" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.Handler、代理">
-    <configuration default="false" name="搜索" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python数据结构与算法/排序与搜索" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="learn_python" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python数据结构与算法/排序与搜索/搜索.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="二叉树" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python数据结构与算法/树与树算法" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="learn_python" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python数据结构与算法/树与树算法/二叉树.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.高级用法以及正则和xml解析">
     <configuration default="false" name="urllib2库的基本使用" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -352,6 +313,42 @@
       <module name="learn_python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="F:\Github\learn_python\Python爬虫\Python爬虫基础类库\urllib2高级用法以及正则和xml解析\高级用法以及正则和xml解析.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="高级用法以及正则和xml解析" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python爬虫/Python爬虫基础类库/urllib2高级用法以及正则和xml解析" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="learn_python" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python爬虫/Python爬虫基础类库/urllib2高级用法以及正则和xml解析/高级用法以及正则和xml解析.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python爬虫/Python爬虫基础类库/urllib2高级用法以及正则和xml解析" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="learn_python" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python爬虫/Python爬虫基础类库/urllib2高级用法以及正则和xml解析/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -604,19 +601,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python.Mywebserver" />
-      <item index="1" class="java.lang.String" itemvalue="Python.搜索" />
-      <item index="2" class="java.lang.String" itemvalue="Python.二叉树" />
-      <item index="3" class="java.lang.String" itemvalue="Python.urllib2库的基本使用" />
-      <item index="4" class="java.lang.String" itemvalue="Python.代码" />
-      <item index="5" class="java.lang.String" itemvalue="Python.Handler、代理" />
+      <item index="1" class="java.lang.String" itemvalue="Python.urllib2库的基本使用" />
+      <item index="2" class="java.lang.String" itemvalue="Python.代码" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Handler、代理" />
+      <item index="4" class="java.lang.String" itemvalue="Python.高级用法以及正则和xml解析" />
+      <item index="5" class="java.lang.String" itemvalue="Python.test" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.Handler、代理" />
-        <item index="1" class="java.lang.String" itemvalue="Python.urllib2库的基本使用" />
-        <item index="2" class="java.lang.String" itemvalue="Python.代码" />
-        <item index="3" class="java.lang.String" itemvalue="Python.二叉树" />
-        <item index="4" class="java.lang.String" itemvalue="Python.搜索" />
+        <item index="0" class="java.lang.String" itemvalue="Python.高级用法以及正则和xml解析" />
+        <item index="1" class="java.lang.String" itemvalue="Python.test" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Handler、代理" />
+        <item index="3" class="java.lang.String" itemvalue="Python.urllib2库的基本使用" />
+        <item index="4" class="java.lang.String" itemvalue="Python.代码" />
       </list>
     </recent_temporary>
   </component>
@@ -676,18 +673,19 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1064" extended-state="7" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32963374" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Debug Logs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2769744" sideWeight="0.50214595" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33926585" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.94438267" sideWeight="0.49785408" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37152392" sideWeight="0.49785408" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.62180203" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20064378" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19957082" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39933258" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -697,7 +695,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -714,22 +711,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Python核心编程/Python网络编程/网络通信过程.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="40" column="39" lean-forward="false" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python核心编程/web服务器案例/html/index" />
-    <entry file="file://$PROJECT_DIR$/html/index" />
-    <entry file="file://D:/python/python 3.5/Lib/re.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="159" column="4" lean-forward="false" selection-start-line="159" selection-start-column="4" selection-end-line="159" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Python核心编程/web服务器案例/web服务器案例-1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
@@ -1030,26 +1011,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python爬虫/Python爬虫基础类库/爬虫知识体系和urlib2库基本使用/urllib2库的基本使用.py">
+    <entry file="file://$PROJECT_DIR$/Python爬虫/Python爬虫基础类库/urllib2高级用法以及正则和xml解析/duanzi.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="603">
-          <caret line="179" column="111" lean-forward="false" selection-start-line="179" selection-start-column="6" selection-end-line="179" selection-end-column="137" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python爬虫/Python爬虫基础类库/urllib2高级用法以及正则和xml解析/高级用法以及正则和xml解析.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="783">
-          <caret line="139" column="0" lean-forward="true" selection-start-line="139" selection-start-column="0" selection-end-line="139" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Python爬虫/Python爬虫基础类库/urllib2高级用法以及正则和xml解析/高级用法">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-24">
-          <caret line="82" column="0" lean-forward="true" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+        <state relative-caret-position="451">
+          <caret line="111" column="0" lean-forward="false" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python爬虫/Python爬虫基础类库/爬虫知识体系和urlib2库基本使用/urllib2库的基本使用.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4059">
+          <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python爬虫/Python爬虫基础类库/urllib2高级用法以及正则和xml解析/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1386">
+          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python爬虫/Python爬虫基础类库/urllib2高级用法以及正则和xml解析/高级用法以及正则和xml解析.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1703">
+          <caret line="248" column="17" lean-forward="false" selection-start-line="248" selection-start-column="11" selection-end-line="248" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python爬虫/Python爬虫基础类库/03.多线程爬虫和Selenium+PhantomJS/多线程爬虫">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python爬虫/Python爬虫基础类库/03.多线程爬虫和Selenium+PhantomJS/多线程爬虫.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
