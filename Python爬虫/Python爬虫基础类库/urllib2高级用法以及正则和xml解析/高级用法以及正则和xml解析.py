@@ -135,4 +135,5 @@ re.match(str, 3, 5)
 # re.I忽略大小写，re.S全本匹配
 patten = re.compile(r'([a-z]+)([a-z]+)', re.I)
 
-patten.match('Hello world hello python')
+m = patten.match('Hello world hello python')
+m.span()

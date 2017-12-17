@@ -79,6 +79,8 @@ patten.spilt()
 patten.sub
 
 match(str, begin, end)
+search(str,begin,end)
+
 
 
 

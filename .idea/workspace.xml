@@ -46,21 +46,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="高级用法" pinned="false" current-in-tab="false">
+      <file leaf-file-name="高级用法" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Python爬虫/Python爬虫基础类库/urllib2高级用法以及正则和xml解析/高级用法">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="81" column="0" lean-forward="true" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+            <state relative-caret-position="-24">
+              <caret line="82" column="0" lean-forward="true" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="高级用法以及正则和xml解析.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="高级用法以及正则和xml解析.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Python爬虫/Python爬虫基础类库/urllib2高级用法以及正则和xml解析/高级用法以及正则和xml解析.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="618">
-              <caret line="135" column="29" lean-forward="true" selection-start-line="135" selection-start-column="28" selection-end-line="135" selection-end-column="29" />
+            <state relative-caret-position="783">
+              <caret line="139" column="0" lean-forward="true" selection-start-line="139" selection-start-column="0" selection-end-line="139" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -137,8 +137,8 @@
         <option value="$PROJECT_DIR$/Python爬虫/Python爬虫基础类库/爬虫知识体系和urlib2库基本使用/爬虫知识体系" />
         <option value="$PROJECT_DIR$/Python爬虫/Python爬虫基础类库/urllib2高级用法以及正则和xml解析/代码.py" />
         <option value="$PROJECT_DIR$/Python爬虫/Python爬虫基础类库/urllib2高级用法以及正则和xml解析/Handler、代理.py" />
-        <option value="$PROJECT_DIR$/Python爬虫/Python爬虫基础类库/urllib2高级用法以及正则和xml解析/高级用法" />
         <option value="$PROJECT_DIR$/Python爬虫/Python爬虫基础类库/urllib2高级用法以及正则和xml解析/高级用法以及正则和xml解析.py" />
+        <option value="$PROJECT_DIR$/Python爬虫/Python爬虫基础类库/urllib2高级用法以及正则和xml解析/高级用法" />
       </list>
     </option>
   </component>
@@ -1038,18 +1038,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python爬虫/Python爬虫基础类库/urllib2高级用法以及正则和xml解析/高级用法">
+    <entry file="file://$PROJECT_DIR$/Python爬虫/Python爬虫基础类库/urllib2高级用法以及正则和xml解析/高级用法以及正则和xml解析.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="81" column="0" lean-forward="true" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+        <state relative-caret-position="783">
+          <caret line="139" column="0" lean-forward="true" selection-start-line="139" selection-start-column="0" selection-end-line="139" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python爬虫/Python爬虫基础类库/urllib2高级用法以及正则和xml解析/高级用法以及正则和xml解析.py">
+    <entry file="file://$PROJECT_DIR$/Python爬虫/Python爬虫基础类库/urllib2高级用法以及正则和xml解析/高级用法">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="618">
-          <caret line="135" column="29" lean-forward="true" selection-start-line="135" selection-start-column="28" selection-end-line="135" selection-end-column="29" />
+        <state relative-caret-position="-24">
+          <caret line="82" column="0" lean-forward="true" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
           <folding />
         </state>
       </provider>
