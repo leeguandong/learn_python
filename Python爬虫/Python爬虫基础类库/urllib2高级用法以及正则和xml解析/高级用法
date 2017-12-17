@@ -1,0 +1,121 @@
+Handler处理器和自定义opener
+opener是urllib2.OpenerDirector的实例，我们之前一直都是使用urlopen，他是一个特殊的opener(也就是模块帮我们构建好的)
+但是基本的urlopen()方法不支持代理、cookie等其他功能的HTTP/HTTPS高级功能。所以要支持这些功能：
+  1.使用相关的Handler处理器来创建特定功能的处理器对象
+  2.然后通过urllib2.build_opener()方法使用这些处理器对象，创建自定义opener对象
+  3.使用自定义的opener对象，调用open()发送请求。
+如果程序里所有的请求都使用自定义的opener，可以使用urllib2.install_opener()将自定义的opener对象定义为全局opener，表示如果之后凡是调用urlopen，
+都将使用这个opener(根据自己的需求来选择)
+
+代理
+本机通过一个代理服务器访问其他站点，有点像vpn
+
+HTTPPasswordMgrWithDefaultRealm()
+这个类会创一个密码管理对象，用来保存和HTTP请求相关的授权信息
+1. ProxyBasicAuthHandler()   授权代理服务器
+2. HTTPbasicAuthHandler()   验证web客户端的授权处理器
+
+如何处理cookie？
+Cookie是指某些网站服务器为了辨别用户身份进行Session跟踪，而存储在用户浏览器上的文本文件，cookie可以保持登录信息到用户下次与服务器的会话
+cookie是由变量名和值组成。
+Cookie在爬虫方面最典型的的应用时判定注册用户是否已经登录网站，用户可能会得到提示，是否在下一次进入网站时候保留用户信息以便简化登录手续、
+
+cookielib库
+该模块主要对象有 CookieJar、FileCookieJar、MozillaCookieJar、LWPCookieJar
+第一个是父类，派生了第二个类，第二个有派生了第三第四个类
+利用CookieJar来保存在cookie对象
+
+##################
+怎么爬几大公司的网站数据还是要研究一下，有个固定的方式
+
+######################################################################
+页面解析和数据提取
+内容一般分为结构为非结构化数据和结构化数据
+非结构化数据：现有数据，再有结构
+结构化数据：现有结构，在有数据
+不同类型数据，我们需要采用不同的方式来处理
+
+非结构化数据处理
+文本、电话号码、邮箱地址
+正则表达式
+HTML文件
+正则表达式
+Xpath
+CSS选择器
+
+结构化的数据处理
+JSON文件
+JSON Path
+转化成Python类型进行操作
+
+XML文件
+转成为Python类型
+Xpath
+CSS选择器
+正则表达式
+
+爬虫一共四个步骤：
+1.明确目标(要知道你准备在哪个范围或者网站去搜索)
+2.爬(将所有的网站内容全部趴下来)
+3.取(去掉对我们没用处的数据)
+4.处理数据(按照我们想要的方式存储和使用)
+对于文本的过滤和规则的匹配，最强大就是正则表达式
+
+Python中re模块有两种方式：
+# 将正则表达式编译成一个patten的规则对象
+patten = re.compile('\d')
+
+# 从开始位置往后找，返回第一个符合规则的，只匹配一次
+patten.match()
+# 从任意位置开始往后找，返回第一个符合规则的，只匹配一次
+patten.search()
+# 所有匹配的全部返回列表
+patten.findall()
+# 返回迭代器
+patten.finditer()
+# 分割字符串，返回列表
+patten.spilt()
+# 替换
+patten.sub
+
+match(str, begin, end)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

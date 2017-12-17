@@ -107,3 +107,62 @@ urllib.urllencode(wd)
 # 贴吧案例
  pn = (page - 1) * 50
 
+##############################################################
+Get和Post请求的区别：
+Get:   请求的url会附带查询参数
+Post： 请求的url不带参数
+
+对于Get请求：查询参数在QueryString里面保存
+对于Post请求：查询参数在Form表单里面保存
+
+# 有道词典
+POST /translate_o?smartresult=dict&smartresult=rule HTTP/1.1
+报头：
+Host: fanyi.youdao.com
+Connection: keep-alive
+Accept: application/json, text/javascript, */*; q=0.01
+X-Requested-With: XMLHttpRequest
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Accept-Language: zh-CN,zh;q=0.8
+
+url：
+http://fanyi.youdao.com/translate_o?smartresult=dict&smartresult=rule
+
+Formdata：
+i=%E4%BD%A0%E5%A5%BD%0A%0A
+from=AUTO
+to=AUTO
+smartresult=dict
+client=fanyideskweb
+salt=1513313106432
+sign=9e722f677d6576af8469b1b6abf8727b
+doctype=json
+version=2.1
+keyfrom=fanyi.web
+action=FY_BY_REALTIME
+typoResult=false
+
+对上述报头和foemdata要进行格式处理：
+正则表达式为   ^(.*):\s(.*)$    替换为   '\1':'\2'
+             ^(.*)=(.*)$              '\1':'\2',
+
+Ajax加载方式的数据获取   动态
+做爬虫最需要关注的不是页面信息，而是页面信息的数据来源
+Ajax 方式加载的页面，数据来源一定是json，也就是说ajax动态加载的页面后面是json1的数据存储
+拿到json，就是拿到了网页的数据
+
+它的前端是html页面，但是一定是有数据往html上传的，所以只要找到数据原就可以，不一定要在html页面上爬数据的
+
+Ajax本身也有get和post之分，这个案例使用post的方式，，get的话就很简单了，直接取json数据
+1.在https://movie.douban.com/tag/#/?sort=T&range=0,10&tags= 这个页面上获取数据，是Ajax动态获取，是使用Post方式，传了start=0，limit=100这两个参数
+2.在https://movie.douban.com/j/new_search_subjects?sort=T&range=0,10&tags=&start=0&limit=100在这个页面上就是用get直接获取，因为这个页面本身就是
+json了，相当于直接访问下载了，上面那个方法，有一个传参到AJax上然后找后台数据再下载的过程
+
+####################################################
+利用cookie模拟登陆
+
+http请求处理和https请求
+http是没有安全证书的，但是https是有安全证书的，但是http请求协议加上"Upgrade-Insecure-Requests" : "1"这句话之后，可以自动转https，问题不大
+CA认证证书
+网站域名可以变，但是CA认证证书是不可能变的，检查身份的合法性
