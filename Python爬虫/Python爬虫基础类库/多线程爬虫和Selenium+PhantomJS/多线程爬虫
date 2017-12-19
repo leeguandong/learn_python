@@ -1,0 +1,126 @@
+css选择器：BeautifulSoup4
+和lxml一样，Beatuiful Soup也是一个HTML/XML的解析器，主要的功能也是如何解析和提取HTML/XML数据
+
+案例  模拟登陆知乎
+在urllib中通过cookiejar这个类库来保存cookie，但是在bs4中通过构建一个session对象来保存页面的cookie
+知乎中登录有跨域攻击的保护，利用网站对用户的信任机制cookie来做坏事
+
+#####################################################
+数据提取之JSON
+json简单说就是javascript中的对象和数组，所以这两种结构就是对象和数组两种结构，通过这两种结构可以表示各种复杂的结构。
+1.对象：对象在js中表示为{}括起来的内容，数据结构为{key：value，key：value，...}的键值对的结构，在面向对象的语言中，key为对象的属性，value为对应的属性
+值，所以很容易理解，取值方法为 对象.key 获取属性值，这个属性值的类型可以是数字、字符串、数组、对象这几种。
+2.数组：数组在js中是中括号[]括起来的内容，数据结构为['python','javascript','c++',...],取值方式和所有语言一样，使用索引取值，字段值的类型
+可以是数字、字符串、数组、对象几种。
+
+json.loads()
+默认转化中文为ascii码格式，所以不利用我们使用，我们将ascii设为false，这样将其转化为unicode，unicode可以转化成任何形式的，utf-8或者gbk都可以
+json.dumps()  # 生成json格式的
+
+json.dump()
+json.load()
+
+JsonPath 匹配语法
+XPath     JSONPath            描述
+  /           $              根节点
+  .           @              现行节点
+  /         . or []          取子节点
+  ..         不支持           取父节点，jsonpath不支持
+  //          ..             就是不管位置，选择所有符合条件的条件
+  *            *             匹配所有元素节点
+  @           不支持          根据属性访问，json不支持，因为json是个key-value递归结构，不需要
+  []           []            迭代器标示(可以在里面做简单的迭代操作，如数组小标，根据内容选值等)
+  |            [,]           支持迭代器中做多选
+  []           ?()           支持过滤操作
+  不支持         ()           支持表达式计算
+  ()           不支持         分组，jsonpath不支持
+
+# 糗事百科案例
+xpath使用神器   模糊查询     //div[contains(@id,'qiushi_tag')]   可以直接在检查元素中按ctrl+f直接写
+
+# 根节点
+//div[contains(@id,'qiushi_tag')]
+# 用户名
+./div//h2
+# 段子内容
+.//div[contains(@id,'qiushi_tag')]//div[@class='content']/span
+# 图片链接
+.//div[@class="thumb"]//@src
+
+# 注意观察，i后面5个数，分别对应每条糗事下5个标签，一共25个，125个，刚好
+# 点赞数
+.//i[0]                     .//span[@class='stats-vote']//i
+# 评论
+.//i[1]
+
+#########################################################
+多线程爬虫案例
+多进程：密集的数据计算，单独的任务，一个进程只能执行一个任务
+多线程：多路IO复用
+
+HQ 高压4核  u低压，用于超极本
+计算机的核心是CPU，CPU承担了所有的计算任务，一个CPU核心一次只能执行一个任务，多个CPU核心可以执行多个任务。
+一个CPU一次只能执行一个进程，其他进程处于非运行状态
+
+进程里包含的执行的执行单元叫线程，一个进程可以包括多个线程
+一个进程的内存空间是共享的，每个进程的线程可以使用使用这个共享空间
+
+一个线程在使用这个共享空间的时候，其他线程必须等他结束，通过互斥锁来实现，作用是防止多个线程使用这个内存空间，先使用的线程会将空间上锁，其他线程等待
+等使用结束，在抢CPU
+
+进程：表示程序的一次执行
+线程：CPU运算的基本调度单位
+
+GIL：python里的执行通行证，而且只有一个，拿到通行证的线程就可以进入CPU执行任务，没有不执行
+Python的多线程使用于：大量密集的IO处理，从网上下载数据，请求等响应，写入磁盘，在CPU角度都是很慢的，要处于大量等待时间，都是IO处理。等待的时候
+要远远大于CPU的计算时间
+Python多进程：大量的并行计算
+
+Scray：协程处理
+
+###########################################################################
+以前的方法基本都是爬取静态页面的，对于动态页面的爬取：
+
+微博登录接口： weibo.cn
+JavaScipt  网络上最常用的客户端脚本语言
+jQuery   动态执行
+Ajax   我们与网站服务器通信的唯一方式，就是提出HTTP请求获取新页面。如果提交表单之后，或从服务器获取信息之后，网站的页面不需要重新刷新，那么访问的网站
+就是使用Ajax技术，Ajax技术是一种加载技术
+DHTML
+
+Selenium  是一个web自动化测试工具
+PhantomJS 是一个无界面的浏览器
+
+一些模拟代码：
+from selenium import webdriver
+driver = webdriver.PhantomJS()
+driver.get('https://www.baidu.com/')
+driver.save_screenshot('baidu.png')
+
+from selenium.webdriver.common.keys import Keys
+driver.find_element_by_id('kw').send_keys(u'美女')
+driver.save_screenshot('baidu.png')
+driver.getcookie()
+
+动态页面模拟点击  案例
+斗鱼
+姓名：     find_all('h3',{'class':'ellipsis'})
+观众人数：  find_all('span',{'class':'dy-num fr'})
+driver.find_element_by_class_name('shark-pager-next').click()
+if driver.page_source.find('shark-pager-disable-next') !=-1:
+    break
+
+机器视觉
+验证码识别
+Tesseract  开源OCR库
+
+
+
+
+
+
+
+
+
+
+

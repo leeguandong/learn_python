@@ -1,0 +1,104 @@
+Scrapy框架
+Scrapy是纯Python实现的一个为了爬取网站数据、提取结构性数据而编码的应用框架，用途非常广泛
+Scrapy使用了twidted(起只要对手是Tornade)异步网络框架来处理网络通讯。可以加速我们的下载速度，不用自己去实现异步框架，并且包含了各种中间件接口，
+可以灵活的完成各种需求。
+
+代理服务器：代理（英语：Proxy），也称网络代理，是一种特殊的网络服务，允许一个网络终端（一般为客户端）通过这个服务与另一个网络终端（一般为服务器）进行非直接的连接。一些网关、路由器等网络设备具备网络代理功能。
+
+结合Scrapy框架图：
+Scrapy Engine(引擎):负责Spider、ItemPipeline、Downloader、Scheduler中间的通讯，信号、数据传递等
+Scheduler(调度器)：它负责接收引擎发送过来的Request请求，并按照一定的方式进行整理排列，入队，当引擎需要时，交还给引擎。
+Downloader(下载器)：负责下载Scrapy Engine(引擎)发送的所有Request请求，并将其获取到的Response交换给Scrapy Engine(引擎)，由引擎交给Spider来处理
+Spider(爬虫)：它负责处理所有Responses，从中分析提取数据，获取Item字段需要的数据，并将需要跟进的URL提交给引擎，再次进入Scheduler(调度器)
+Item Pipeline(管道)：它负责处理Spider中获取到的Item，并进行后期处理(详细分析、过滤、存储等)的地方
+Downloader Middlewares(下载中间件)：你可以当做是一个自定义扩展功能的组件
+Spider Moddlewares(Spider中间件)：你可以理解成一个可以自定扩展和擦偶作引擎和Spider中间通信的功能组件（比如进入Spider的Response和从Spider出去的Requests）
+
+制作Scrapy爬虫一共需要四步：
+新建项目(scrapy startproject xxx):新建一个新的爬虫项目
+明确项目(编写item.py):明确你想要抓取的目标
+制作爬虫(spiders/xxspider.py):制作爬虫开始爬取网页
+存储内容(pipelines.py):设计管道存储爬取内容
+
+scrapy.cfg ：项目的配置文件
+mySpider/ ：项目的Python模块，将会从这里引用代码
+mySpider/items.py ：项目的目标文件
+mySpider/pipelines.py ：项目的管道文件
+mySpider/settings.py ：项目的设置文件
+mySpider/spiders/ ：存储爬虫代码目录
+
+直接使用scrapy框架
+scrapy genspider myspider itcast.cn
+
+# 案例 爬取传智播客教师
+# 这个问题就是爬不到网页上面的数据
+根节点
+div('//div[@class='li_txt]')
+名字
+'./h3'
+职称
+'./h4'
+
+请求什么都不管，只需要给框架一个url就可以
+xpath解析的返回的都是列表
+
+yield的用法：可以保存上一次运行到的位置，下一次运行时可以接着运行，yield返回的是一个迭代器
+def fib(n):
+   a,b,s =0,1,0
+   while s<n:
+       a,b = b,a+b
+       s = s+1
+       yield b
+
+for i in fib(5):
+   print(i)
+
+# 管道文件的用法
+管道文件是用来处理数据的，也就是说爬虫把数据按照引擎的要求爬下来之后，要交给处理数据的pipline处理，它可以把数据处理成各种各样的形式，
+首先在setting中设置处理数据的pipline的类，然后在这个pipline具体写类的方法，注意，在数据传输过程中用到了yield，这个迭代器用于数据传输
+
+scrapy项目步骤：
+1.创建项目
+  scrapy startproject xxx
+2.编写items.py文件
+  设置需要保存的数据字段
+3.进入xxx/spiders
+  生成一个基础的爬虫模板 scrapy genspider myspider itcast.cn
+  编写爬虫文件，文件里的name就是爬虫名(不同于项目名)
+4.运行
+  scrapy crawl itcast
+  scrapy crawl itcast -o json/csv/xml
+
+notes：他这个items文件就像是以前搞java网络编程里面的bean实体类，把数据格式给规定出来，然后解析。这边python的也是，趴下来之后用的xpah解析，解析完了
+之后也是要按照这种格式存的，有点类似的地方啊。
+
+################################
+腾讯招聘案例
+模式：
+根节点： .xpath('//tr[@class='even']'|'//tr[@class='odd']')
+连接详情：  .xpath('//td[1]/a/@href').extract()[0]  # 直接@属性
+职位名称：  .xpath('//td[1]/a/text()').extract()[0]  # xpath提出来是个保存文本的列表，extract将其转成unicode,其中只有一个元素，就取第一个
+招聘人数：  .xpath('//td[3]/text()').extract()[0]
+工作地点：  .xpath('//td[4]/text()').extract()[0]
+发布时间    .xpath('//td[5]/text()').extract()[0]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

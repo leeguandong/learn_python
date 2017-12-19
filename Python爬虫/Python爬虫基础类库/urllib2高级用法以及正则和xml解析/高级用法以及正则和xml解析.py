@@ -23,6 +23,7 @@ sys.setdefaultencoding('utf8')
 #
 # print response.read()
 
+
 # # 代理
 # # 不过在西刺上的免费代理好像不能用,很多人用，不稳定
 #
@@ -57,6 +58,7 @@ sys.setdefaultencoding('utf8')
 #
 # print response.read()
 
+
 # # 授权代理处理器和验证web客户端的授权处理器
 # import urllib2
 #
@@ -87,6 +89,7 @@ sys.setdefaultencoding('utf8')
 #
 # # # 没有授权验证信息
 # # response = urllib2.urlopen(request)
+
 
 # # 模拟登陆
 # # post方式，初次登录记录cookie，然后通过其他链接获取数据
@@ -126,6 +129,7 @@ sys.setdefaultencoding('utf8')
 #
 # print response_peng.read()
 
+
 # # re模块正则表达式的函数用法
 # import re
 #
@@ -137,6 +141,7 @@ sys.setdefaultencoding('utf8')
 #
 # m = patten.match('Hello world hello python')
 # m.span()
+
 
 # # 案例
 # # 使用正则表达式爬内涵段子
@@ -200,6 +205,7 @@ sys.setdefaultencoding('utf8')
 # if __name__ == '__main__':
 #     spider = Spider()
 #     spider.startWork()
+
 
 # 案例
 # 贴吧图片下载案例
