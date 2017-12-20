@@ -4,6 +4,7 @@ from tencent.items import TencentItem
 
 class TencentSpider(scrapy.Spider):
     name = 'tencent'
+    # 控制爬虫爬取的范围
     allowed_domains = ['tencent.com']
 
     url = "http://hr.tencent.com/position.php?&start="

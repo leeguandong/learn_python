@@ -11,6 +11,7 @@ class TencentPipeline(object):
         self.filename = open('tencent.json', 'w')
 
     def process_item(self, item, spider):
+        # ensure_ascii=False 传输数据中有中文，要禁用这个，因为该模式默认数据被转成ascii码，转成unicode更具有通用性，python3就是unicode编码
         text = json.dumps(dict(item), ensure_ascii=False) + ',\n'
         self.filename.write(text.encode('utf-8'))
         return item

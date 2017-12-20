@@ -20,14 +20,18 @@
     <SUITE FILE_PATH="coverage/learn_python$Unittests_in_douyu__1_.coverage" NAME="Unittests in douyu (1) Coverage Results" MODIFIED="1513610346562" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/learn_python$web_1.coverage" NAME="web服务器案例-1 Coverage Results" MODIFIED="1512204381251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python核心编程/web服务器案例" />
     <SUITE FILE_PATH="coverage/learn_python$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1513601790429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/learn_python$donguan.coverage" NAME="donguan Coverage Results" MODIFIED="1513778008863" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和CrawlSpider类/newdongguan/newdongguan/spiders" />
     <SUITE FILE_PATH="coverage/learn_python$xml.coverage" NAME="高级用法以及正则和xml解析 Coverage Results" MODIFIED="1513517568180" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python爬虫/Python爬虫基础类库/urllib2高级用法以及正则和xml解析" />
     <SUITE FILE_PATH="coverage/learn_python$Unittest_douyu_testDouyu__1_.coverage" NAME="Unittest douyu.testDouyu (1) Coverage Results" MODIFIED="1513611633258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/learn_python$start__2_.coverage" NAME="start (2) Coverage Results" MODIFIED="1513683532718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tencent" />
+    <SUITE FILE_PATH="coverage/learn_python$start__2_.coverage" NAME="start (2) Coverage Results" MODIFIED="1513767095751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和CrawlSpider类/dongguan" />
     <SUITE FILE_PATH="coverage/learn_python$Unittests_in_douyu__3_.coverage" NAME="Unittests in douyu (3) Coverage Results" MODIFIED="1513611197516" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/learn_python$subprocess.coverage" NAME="subprocess Coverage Results" MODIFIED="1513618061517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="C:/Python27/ArcGIS10.3/Lib" />
     <SUITE FILE_PATH="coverage/learn_python$download_cat.coverage" NAME="download_cat Coverage Results" MODIFIED="1491808436086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/learn_python$Handler.coverage" NAME="Handler、代理 Coverage Results" MODIFIED="1513485017179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python爬虫/Python爬虫基础类库/urllib2高级用法以及正则和xml解析" />
-    <SUITE FILE_PATH="coverage/learn_python$tencentjob.coverage" NAME="tencentjob Coverage Results" MODIFIED="1513683804222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和Spider类/tencent/tencent/spiders" />
+    <SUITE FILE_PATH="coverage/learn_python$start__4_.coverage" NAME="start (4) Coverage Results" MODIFIED="1513698034078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/douyu" />
+    <SUITE FILE_PATH="coverage/learn_python$settings.coverage" NAME="settings Coverage Results" MODIFIED="1513766855411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和CrawlSpider类/dongguan/dongguan" />
+    <SUITE FILE_PATH="coverage/learn_python$tencentjob.coverage" NAME="tencentjob Coverage Results" MODIFIED="1513752652707" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和Spider类/tencent/tencent/spiders" />
+    <SUITE FILE_PATH="coverage/learn_python$startspider.coverage" NAME="startspider Coverage Results" MODIFIED="1513786771761" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和CrawlSpider类/newdongguan" />
     <SUITE FILE_PATH="coverage/learn_python$Unnamed.coverage" NAME="Unnamed Coverage Results" MODIFIED="1513673031777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和Spider类/myspider" />
     <SUITE FILE_PATH="coverage/learn_python$test_2.coverage" NAME="test-2 Coverage Results" MODIFIED="1504696593737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/learn_python$Unittests_in_Test__3_.coverage" NAME="Unittests in Test (3) Coverage Results" MODIFIED="1508210355350" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python核心编程" />
@@ -43,18 +47,20 @@
     <SUITE FILE_PATH="coverage/learn_python$Unittests_in_Test__1_.coverage" NAME="Unittests in Test (1) Coverage Results" MODIFIED="1508208227484" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python核心编程" />
     <SUITE FILE_PATH="coverage/learn_python$Unittests_in_douyu__2_.coverage" NAME="Unittests in douyu (2) Coverage Results" MODIFIED="1513610376773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python爬虫/Python爬虫基础类库/03.多线程爬虫和Selenium+PhantomJS" />
     <SUITE FILE_PATH="coverage/learn_python$Unittests_in_.coverage" NAME="Unittests in 多线程爬虫 Coverage Results" MODIFIED="1513611266179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python爬虫/Python爬虫基础类库/03.多线程爬虫和Selenium+PhantomJS" />
-    <SUITE FILE_PATH="coverage/learn_python$start.coverage" NAME="start Coverage Results" MODIFIED="1513670774853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mySpider" />
-    <SUITE FILE_PATH="coverage/learn_python$start__1_.coverage" NAME="start (1) Coverage Results" MODIFIED="1513683809623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和Spider类/tencent" />
+    <SUITE FILE_PATH="coverage/learn_python$start.coverage" NAME="start Coverage Results" MODIFIED="1513753065404" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和CrawlSpider类/tencent" />
+    <SUITE FILE_PATH="coverage/learn_python$start__1_.coverage" NAME="start (1) Coverage Results" MODIFIED="1513780049315" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和CrawlSpider类/newdongguan" />
     <SUITE FILE_PATH="coverage/learn_python$11.coverage" NAME="11 Coverage Results" MODIFIED="1513581000204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/learn_python$test.coverage" NAME="test Coverage Results" MODIFIED="1513517031642" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python爬虫/Python爬虫基础类库/urllib2高级用法以及正则和xml解析" />
     <SUITE FILE_PATH="coverage/learn_python$TESTYY.coverage" NAME="TESTYY Coverage Results" MODIFIED="1513611072944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/learn_python$__1_.coverage" NAME="飞机大战 (1) Coverage Results" MODIFIED="1508069259381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python基础编程" />
     <SUITE FILE_PATH="coverage/learn_python$web_2.coverage" NAME="web服务器案例-2 Coverage Results" MODIFIED="1512215490031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python核心编程/web服务器案例" />
+    <SUITE FILE_PATH="coverage/learn_python$start__3_.coverage" NAME="start (3) Coverage Results" MODIFIED="1513779873038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/newdongguan" />
     <SUITE FILE_PATH="coverage/learn_python$Unittests_in_douyu__4_.coverage" NAME="Unittests in douyu (4) Coverage Results" MODIFIED="1513610154633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python爬虫/Python爬虫基础类库/03.多线程爬虫和Selenium+PhantomJS" />
     <SUITE FILE_PATH="coverage/learn_python$_.coverage" NAME="系统编程-线程 Coverage Results" MODIFIED="1509716301720" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python核心编程/Linux系统编程" />
     <SUITE FILE_PATH="coverage/learn_python$Unittest_douyu_testDouyu.coverage" NAME="Unittest douyu.testDouyu Coverage Results" MODIFIED="1513614259054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python爬虫/Python爬虫基础类库/03.多线程爬虫和Selenium+PhantomJS" />
     <SUITE FILE_PATH="coverage/learn_python$test_5_.coverage" NAME="test-5-知识强化 Coverage Results" MODIFIED="1507811350499" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/learn_python$Unittests_in_Test__2_.coverage" NAME="Unittests in Test (2) Coverage Results" MODIFIED="1508208275480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python核心编程" />
+    <SUITE FILE_PATH="coverage/learn_python$tencentJob.coverage" NAME="tencentJob Coverage Results" MODIFIED="1513753053839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和CrawlSpider类/tencent/tencent/spiders" />
     <SUITE FILE_PATH="coverage/learn_python$test_1.coverage" NAME="test-1 Coverage Results" MODIFIED="1504595555991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/learn_python$urllib2.coverage" NAME="urllib2库的基本使用 Coverage Results" MODIFIED="1513481209936" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python爬虫/Python爬虫基础类库/爬虫知识体系和urlib2库基本使用" />
   </component>
@@ -64,11 +70,43 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="scrapy框架" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和Spider类/scrapy框架">
+      <file leaf-file-name="scrapy框架和CrawlSpider类" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和CrawlSpider类/scrapy框架和CrawlSpider类">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
-              <caret line="70" column="0" lean-forward="true" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+            <state relative-caret-position="420">
+              <caret line="95" column="1" lean-forward="false" selection-start-line="95" selection-start-column="1" selection-end-line="95" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dongguanSpider.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和CrawlSpider类/newdongguan/newdongguan/spiders/dongguanSpider.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="9" column="36" lean-forward="false" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+              <folding>
+                <element signature="e#24#37#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="startspider.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和CrawlSpider类/newdongguan/startspider.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="scrapy框架模拟登陆和中间件" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架模拟登陆和中间件/scrapy框架模拟登陆和中间件">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -86,6 +124,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>re</find>
+      <find>\t</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -96,38 +135,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Python数据结构与算法/算法与数据结构引入/引入" />
-        <option value="$PROJECT_DIR$/Python数据结构与算法/顺序表/顺序表.py" />
-        <option value="$PROJECT_DIR$/Python数据结构与算法/顺序表/顺序表" />
-        <option value="$PROJECT_DIR$/Python数据结构与算法/链表/链表.py" />
-        <option value="$PROJECT_DIR$/Python数据结构与算法/链表/链表" />
-        <option value="$PROJECT_DIR$/Python数据结构与算法/链表/单项循环链表" />
-        <option value="$PROJECT_DIR$/Python数据结构与算法/链表/单项循环链表.py" />
-        <option value="$PROJECT_DIR$/Python数据结构与算法/链表/双向链表" />
-        <option value="$PROJECT_DIR$/Python数据结构与算法/链表/单向循环链表.py" />
-        <option value="$PROJECT_DIR$/Python数据结构与算法/链表/双向链表.py" />
-        <option value="$PROJECT_DIR$/Python数据结构与算法/栈与队列/栈与队列" />
-        <option value="$PROJECT_DIR$/Python数据结构与算法/栈与队列/栈与队列.py" />
-        <option value="$PROJECT_DIR$/Python数据结构与算法/顺序表/排序与搜索.py" />
-        <option value="$PROJECT_DIR$/Python数据结构与算法/排序与搜索/排序与搜索.py" />
-        <option value="$PROJECT_DIR$/Python数据结构与算法/排序与搜索/排序与搜索" />
-        <option value="$PROJECT_DIR$/Python数据结构与算法/排序与搜索/搜索.py" />
-        <option value="$PROJECT_DIR$/Python数据结构与算法/排序与搜索/搜索" />
-        <option value="$PROJECT_DIR$/Python数据结构与算法/排序与搜索/排序.py" />
-        <option value="$PROJECT_DIR$/Python数据结构与算法/树与树算法/二叉树.py" />
-        <option value="$PROJECT_DIR$/Python数据结构与算法/树与树算法/二叉树" />
-        <option value="$PROJECT_DIR$/Python数据库/MySQL/MySQL基础/Mysql基础.py" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/Python核心编程/Linux系统编程/系统编程-线程.py" />
-        <option value="$PROJECT_DIR$/Python爬虫/Python爬虫基础类库/爬虫知识体系和urlib2库基本使用/爬虫知识体系" />
-        <option value="$PROJECT_DIR$/Python爬虫/Python爬虫基础类库/urllib2高级用法以及正则和xml解析/代码.py" />
-        <option value="$PROJECT_DIR$/Python爬虫/Python爬虫基础类库/urllib2高级用法以及正则和xml解析/Handler、代理.py" />
-        <option value="$PROJECT_DIR$/Python爬虫/Python爬虫基础类库/urllib2高级用法以及正则和xml解析/duanzi.txt" />
-        <option value="$PROJECT_DIR$/Python爬虫/Python爬虫基础类库/爬虫知识体系和urlib2库基本使用/urllib2库的基本使用.py" />
-        <option value="$PROJECT_DIR$/Python爬虫/Python爬虫基础类库/urllib2高级用法以及正则和xml解析/test.py" />
-        <option value="$PROJECT_DIR$/Python爬虫/Python爬虫基础类库/urllib2高级用法以及正则和xml解析/高级用法" />
-        <option value="$PROJECT_DIR$/11.py" />
-        <option value="$PROJECT_DIR$/Python爬虫/Python爬虫基础类库/03.多线程爬虫和Selenium+PhantomJS/duanzi.json" />
         <option value="$PROJECT_DIR$/TESTYY.py" />
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/Python爬虫/Python爬虫基础类库/03.多线程爬虫和Selenium+PhantomJS/多线程爬虫" />
@@ -141,12 +148,44 @@
         <option value="$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和Spider类/myspider/myspider/settings.py" />
         <option value="$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和Spider类/myspider/myspider/pipelines.py" />
         <option value="$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和Spider类/myspider/myspider/spiders/itcast.py" />
-        <option value="$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和Spider类/scrapy框架" />
         <option value="$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和Spider类/tencent/tencent/items.py" />
-        <option value="$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和Spider类/tencent/tencent/pipelines.py" />
         <option value="$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和Spider类/tencent/start.py" />
         <option value="$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和Spider类/tencent/tencent/settings.py" />
+        <option value="$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和Spider类/douyu/douyu/items.py" />
+        <option value="$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和Spider类/scrapy框架" />
+        <option value="$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和Spider类/douyu/start.py" />
+        <option value="$PROJECT_DIR$/douyu/start.py" />
+        <option value="$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和Spider类/douyu/douyu/pipelines.py" />
+        <option value="$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和Spider类/douyu/douyu/settings.py" />
+        <option value="$PROJECT_DIR$/douyu/douyu/settings.py" />
+        <option value="$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和Spider类/douyu/douyu/spiders/douyumm.py" />
+        <option value="$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和Spider类/tencent/tencent/pipelines.py" />
         <option value="$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和Spider类/tencent/tencent/spiders/tencentjob.py" />
+        <option value="$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和CrawlSpider类/tencent/tencent/items.py" />
+        <option value="$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和CrawlSpider类/tencent/tencent/pipelines.py" />
+        <option value="$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和CrawlSpider类/tencent/tencent/settings.py" />
+        <option value="$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和CrawlSpider类/tencent/tencent/spiders/tencent.py" />
+        <option value="$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和CrawlSpider类/tencent/start.py" />
+        <option value="$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和CrawlSpider类/tencent/tencentlog.log" />
+        <option value="$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和CrawlSpider类/tencent/tencent/spiders/tencentJob.py" />
+        <option value="$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和CrawlSpider类/dongguan/start.py" />
+        <option value="$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和CrawlSpider类/dongguan/dongguan/items.py" />
+        <option value="$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和CrawlSpider类/dongguan/dongguan/pipelines.py" />
+        <option value="$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和CrawlSpider类/dongguan/dongguan/settings.py" />
+        <option value="$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和CrawlSpider类/dongguan/dongguan/spiders/sun.py" />
+        <option value="$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和CrawlSpider类/dongguan/dongguan.json" />
+        <option value="$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和CrawlSpider类/newdongguan/newdongguan/items.py" />
+        <option value="$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和CrawlSpider类/newdongguan/newdongguan/settings.py" />
+        <option value="$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和CrawlSpider类/newdongguan/newdongguan/pipelines.py" />
+        <option value="$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和CrawlSpider类/newdongguan/start.py" />
+        <option value="$PROJECT_DIR$/newdongguan/newdongguan/spiders/dongdong.py" />
+        <option value="$PROJECT_DIR$/newdongguan/donggguan.json" />
+        <option value="$PROJECT_DIR$/newdongguan/start.py" />
+        <option value="$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和CrawlSpider类/newdongguan/dongguan.json" />
+        <option value="$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和CrawlSpider类/newdongguan/newdongguan/spiders/donguan.py" />
+        <option value="$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和CrawlSpider类/scrapy框架和CrawlSpider类" />
+        <option value="$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和CrawlSpider类/newdongguan/startspider.py" />
+        <option value="$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和CrawlSpider类/newdongguan/newdongguan/spiders/dongguanSpider.py" />
       </list>
     </option>
   </component>
@@ -157,10 +196,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
+    <option name="x" value="-32" />
+    <option name="y" value="94" />
     <option name="width" value="1938" />
-    <option name="height" value="1064" />
+    <option name="height" value="1062" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -206,10 +245,6 @@
               <option name="myItemId" value="scrapy框架" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scrapy框架和Spider类" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -240,53 +275,53 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\Github\learn_python\tencent" />
+      <recent name="F:\Github\learn_python\Python爬虫\scrapy框架\scrapy框架和CrawlSpider类\newdongguan" />
+      <recent name="F:\Github\learn_python\newdongguan" />
       <recent name="F:\Github\learn_python" />
-      <recent name="F:\Github\learn_python\Python爬虫\scrapy框架\scrapy框架和Spider类\tencent\tencent" />
-      <recent name="F:\Github\learn_python\Python爬虫\scrapy框架\scrapy框架和Spider类" />
-      <recent name="F:\Github\learn_python\Python爬虫\scrapy框架\scrapy框架和Spider类\myspider" />
+      <recent name="F:\Github\learn_python\Python爬虫\scrapy框架\scrapy框架和CrawlSpider类\dongguan" />
+      <recent name="F:\Github\learn_python\Python爬虫\scrapy框架\scrapy框架和CrawlSpider类\tencent" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Github\learn_python\Python爬虫\scrapy框架\scrapy框架和Spider类\douyu" />
+      <recent name="F:\Github\learn_python\Python爬虫\scrapy框架\scrapy框架和Spider类" />
       <recent name="F:\Github\learn_python\Python爬虫\scrapy框架\scrapy框架和Spider类\tencent" />
       <recent name="F:\Github\learn_python\Python数据结构与算法\树与树算法" />
       <recent name="F:\Github\learn_python\Python数据结构与算法\排序与搜索" />
-      <recent name="F:\Github\learn_python\Python核心编程\web服务器案例\web服务器框架" />
-      <recent name="F:\Github\learn_python\Python核心编程\web服务器案例\html" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.start (1)">
-    <configuration default="false" name="多线程爬虫" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.startspider">
+    <configuration default="false" name="start (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python爬虫/Python爬虫基础类库/03.多线程爬虫和Selenium+PhantomJS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和CrawlSpider类/dongguan" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="learn_python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python爬虫/Python爬虫基础类库/03.多线程爬虫和Selenium+PhantomJS/多线程爬虫.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和CrawlSpider类/dongguan/start.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="start" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="donguan" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mySpider" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和CrawlSpider类/newdongguan/newdongguan/spiders" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="learn_python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mySpider/start.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和CrawlSpider类/newdongguan/newdongguan/spiders/donguan.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -298,49 +333,49 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和Spider类/tencent" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和CrawlSpider类/newdongguan" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="learn_python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和Spider类/tencent/start.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和CrawlSpider类/newdongguan/start.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="tencentjob" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="start (3)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和Spider类/tencent/tencent/spiders" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/newdongguan" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="learn_python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和Spider类/tencent/tencent/spiders/tencentjob.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/newdongguan/start.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="start (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="startspider" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tencent" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和CrawlSpider类/newdongguan" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="learn_python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tencent/start.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和CrawlSpider类/newdongguan/startspider.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -612,19 +647,19 @@
     <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Python.Unnamed" />
       <item index="1" class="java.lang.String" itemvalue="Python.Mywebserver" />
-      <item index="2" class="java.lang.String" itemvalue="Python.多线程爬虫" />
-      <item index="3" class="java.lang.String" itemvalue="Python.start" />
+      <item index="2" class="java.lang.String" itemvalue="Python.start (2)" />
+      <item index="3" class="java.lang.String" itemvalue="Python.donguan" />
       <item index="4" class="java.lang.String" itemvalue="Python.start (1)" />
-      <item index="5" class="java.lang.String" itemvalue="Python.tencentjob" />
-      <item index="6" class="java.lang.String" itemvalue="Python.start (2)" />
+      <item index="5" class="java.lang.String" itemvalue="Python.start (3)" />
+      <item index="6" class="java.lang.String" itemvalue="Python.startspider" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.start (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Python.tencentjob" />
-        <item index="2" class="java.lang.String" itemvalue="Python.start (2)" />
-        <item index="3" class="java.lang.String" itemvalue="Python.start" />
-        <item index="4" class="java.lang.String" itemvalue="Python.多线程爬虫" />
+        <item index="0" class="java.lang.String" itemvalue="Python.startspider" />
+        <item index="1" class="java.lang.String" itemvalue="Python.start (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Python.start (3)" />
+        <item index="3" class="java.lang.String" itemvalue="Python.donguan" />
+        <item index="4" class="java.lang.String" itemvalue="Python.start (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -692,19 +727,20 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1064" extended-state="7" />
-    <editor active="true" />
+    <frame x="-32" y="94" width="1938" height="1062" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32963374" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Debug Logs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.62180203" sideWeight="0.50214595" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33926585" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5684093" sideWeight="0.49785408" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.56395996" sideWeight="0.49785408" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.62180203" sideWeight="0.49785408" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16899142" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17596567" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39933258" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -714,7 +750,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -731,57 +766,20 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/my.html" />
-    <entry file="file://$PROJECT_DIR$/Python爬虫/Python爬虫基础类库/urllib2高级用法以及正则和xml解析/高级用法">
+    <entry file="file://$PROJECT_DIR$/Python鐖櫕/scrapy妗嗘灦/scrapy妗嗘灦鍜孲pider绫籠douyu/Images/full/dbb4c335469cc796e2d4bb8339c67ff9b35a5be3.jpg" />
+    <entry file="file://$PROJECT_DIR$/Python鐖櫕/scrapy妗嗘灦/scrapy妗嗘灦鍜孲pider绫籠douyu/Images/full/dbc24c024fec66c908c8cb73b34da732ac2dfcce.jpg" />
+    <entry file="file://$PROJECT_DIR$/Python鐖櫕/scrapy妗嗘灦/scrapy妗嗘灦鍜孲pider绫籠douyu/Images/full/0f2dca8246efae14507acce021d39ff35b5921a9.jpg" />
+    <entry file="file://$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和Spider类/douyu/douyu/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="113" column="0" lean-forward="true" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
+        <state relative-caret-position="249">
+          <caret line="70" column="0" lean-forward="true" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/qiushi.json" />
-    <entry file="file://$PROJECT_DIR$/11.py" />
-    <entry file="file://$PROJECT_DIR$/Python爬虫/Python爬虫基础类库/03.多线程爬虫和Selenium+PhantomJS/duanzi.json" />
-    <entry file="file://$PROJECT_DIR$/Python爬虫/Python爬虫基础类库/03.多线程爬虫和Selenium+PhantomJS/city.json" />
-    <entry file="file://$PROJECT_DIR$/Python爬虫/Python爬虫基础类库/03.多线程爬虫和Selenium+PhantomJS/qiushi.json" />
-    <entry file="file://$PROJECT_DIR$/duanzi.json" />
-    <entry file="file://C:/Python27/ArcGIS10.3/Lib/unittest/case.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="234" column="8" lean-forward="false" selection-start-line="234" selection-start-column="8" selection-end-line="234" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TESTYY.py" />
-    <entry file="file://$PROJECT_DIR$/test.py" />
-    <entry file="file://$PROJECT_DIR$/Python爬虫/Python爬虫基础类库/03.多线程爬虫和Selenium+PhantomJS/多线程爬虫" />
-    <entry file="file://C:/Python27/ArcGIS10.3/Lib/subprocess.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="962" column="41" lean-forward="true" selection-start-line="962" selection-start-column="41" selection-end-line="962" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/ArcGIS10.3/Lib/site-packages/pytesseract/pytesseract.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="123" column="45" lean-forward="true" selection-start-line="123" selection-start-column="45" selection-end-line="123" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python爬虫/Python爬虫基础类库/03.多线程爬虫和Selenium+PhantomJS/captcha.jpg" />
-    <entry file="file://$PROJECT_DIR$/Python爬虫/Python爬虫基础类库/03.多线程爬虫和Selenium+PhantomJS/多线程爬虫.py" />
-    <entry file="file://$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和Spider类/itcast.py" />
-    <entry file="file://$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和Spider类/scrapy框架和Spider类.py" />
-    <entry file="file://$PROJECT_DIR$/Python爬虫/Python爬虫基础类库/多线程爬虫和Selenium+PhantomJS/多线程爬虫.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="427" column="23" lean-forward="false" selection-start-line="427" selection-start-column="21" selection-end-line="427" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python核心编程/python正则表达式/正则表达式.py">
+    <entry file="file://$PROJECT_DIR$/douyu/douyu/pipelines.py" />
+    <entry file="file://$PROJECT_DIR$/douyu/douyu/settings.py" />
+    <entry file="file://$PROJECT_DIR$/douyu/start.py" />
+    <entry file="file://$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和Spider类/douyu/douyu/middlewares.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -789,198 +787,97 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Python27/ArcGIS10.3/Lib/multiprocessing/__init__.py">
+    <entry file="file://$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和Spider类/douyu/douyu/spiders/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python核心编程/web服务器案例/web服务器案例-2.py">
+    <entry file="file://$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和Spider类/douyu/douyu/items.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="3" column="20" lean-forward="false" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="20" />
+        <state relative-caret-position="462">
+          <caret line="14" column="30" lean-forward="false" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python核心编程/web服务器案例/web服务器框架/Mywebframework.py">
+    <entry file="file://$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和Spider类/douyu/douyu/images.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="2" column="21" lean-forward="false" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python核心编程/web服务器案例/web服务器框架/Mywebserver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#20#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mySpider/teacher.json" />
-    <entry file="file://$PROJECT_DIR$/mySpider/mySpider/spiders/teacher.json" />
-    <entry file="file://$PROJECT_DIR$/mySpider/mySpider/spiders/itcastspider.py" />
-    <entry file="file://$PROJECT_DIR$/mySpider/start.py" />
-    <entry file="file://$PROJECT_DIR$/mySpider/mySpider/spiders/tencent.py" />
-    <entry file="file://$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和Spider类/myspider/myspider/middlewares.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="-6574">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和Spider类/myspider/myspider/items.py">
+    <entry file="file://$PROJECT_DIR$/douyu/douyu/items.py" />
+    <entry file="file://$PROJECT_DIR$/douyu/douyu/images.py" />
+    <entry file="file://$PROJECT_DIR$/douyu/douyu/spiders/douyumeinv.py" />
+    <entry file="file://$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和Spider类/douyu/start.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和Spider类/myspider/myspider/pipelines.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="22" column="67" lean-forward="false" selection-start-line="22" selection-start-column="67" selection-end-line="22" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和Spider类/myspider/myspider/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1320">
-          <caret line="46" column="16" lean-forward="false" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和Spider类/myspider/teacher.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和Spider类/myspider/teacher.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和Spider类/myspider/start.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="1" lean-forward="true" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和Spider类/Scrapy框架.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和Spider类/myspider/myspider/spiders/itcast.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="28" column="13" lean-forward="false" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="13" />
-          <folding>
-            <element signature="e#16#29#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和Spider类/tencent/tencent/spiders/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="198">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Python爬虫/Python爬虫基础类库/urllib2高级用法以及正则和xml解析/高级用法以及正则和xml解析.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="232" column="138" lean-forward="true" selection-start-line="232" selection-start-column="8" selection-end-line="232" selection-end-column="142" />
+        <state relative-caret-position="5049">
+          <caret line="213" column="13" lean-forward="false" selection-start-line="213" selection-start-column="13" selection-end-line="213" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/ArcGIS10.3/Lib/site-packages/scrapy/spiders/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="88" column="8" lean-forward="false" selection-start-line="88" selection-start-column="8" selection-end-line="88" selection-end-column="8" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和Spider类/douyu/douyu/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="31" lean-forward="false" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+          <folding>
+            <element signature="e#192#205#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和Spider类/tencent/tencent/pipelines.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="18" column="29" lean-forward="false" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+        <state relative-caret-position="429">
+          <caret line="13" column="97" lean-forward="false" selection-start-line="13" selection-start-column="97" selection-end-line="13" selection-end-column="97" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和Spider类/tencent/tencent/items.py">
+    <entry file="file://$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和Spider类/douyu/douyu/spiders/douyumm.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-311">
-          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="207">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding>
+            <element signature="e#24#37#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tencent/tencent/spiders/__init__.py">
+    <entry file="file://$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和CrawlSpider类/tencent/tencent/items.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tencent/tencent.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="2" column="9" lean-forward="true" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tencent/start.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tencent/tencent/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="67" column="27" lean-forward="false" selection-start-line="67" selection-start-column="23" selection-end-line="67" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和Spider类/tencent/tencent/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="62" column="3" lean-forward="true" selection-start-line="62" selection-start-column="3" selection-end-line="62" selection-end-column="3" />
+        <state relative-caret-position="99">
+          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和Spider类/tencent/tencent/spiders/tencentjob.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="24" column="73" lean-forward="false" selection-start-line="24" selection-start-column="73" selection-end-line="24" selection-end-column="73" />
+        <state relative-caret-position="132">
+          <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="19" />
           <folding>
-            <element signature="e#24#37#0" expanded="true" />
+            <element signature="e#24#37#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和Spider类/tencent/tencent.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1023">
-          <caret line="14" column="23" lean-forward="false" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -992,10 +889,232 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和Spider类/scrapy框架">
+    <entry file="file://$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和Spider类/tencent/tencent.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="70" column="0" lean-forward="true" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和CrawlSpider类/tencent/scrapy.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和CrawlSpider类/tencent/tencent.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和CrawlSpider类/tencent/tencentlog.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-607542">
+          <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和CrawlSpider类/tencent/start.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和CrawlSpider类/dongguan/dongguan/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="9" column="11" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和CrawlSpider类/dongguan/dongguan/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和CrawlSpider类/dongguan/dongguan/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="59" column="36" lean-forward="false" selection-start-line="59" selection-start-column="36" selection-end-line="59" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和CrawlSpider类/dongguan/start.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和CrawlSpider类/dongguan/dongguan/spiders/sun.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="15" column="46" lean-forward="false" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和CrawlSpider类/tencent/tencent/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="12" column="37" lean-forward="false" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和CrawlSpider类/tencent/tencent/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1056">
+          <caret line="25" column="21" lean-forward="true" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和CrawlSpider类/newdongguan/newdongguan/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="67" column="45" lean-forward="false" selection-start-line="67" selection-start-column="26" selection-end-line="67" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newdongguan/scrapy.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newdongguan/newdongguan/spiders/dongdong.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newdongguan/donggguan.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="39" column="29" lean-forward="false" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newdongguan/start.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="4" column="7" lean-forward="true" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和CrawlSpider类/newdongguan/newdongguan/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和CrawlSpider类/newdongguan/newdongguan/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和CrawlSpider类/dongguan/dongguan.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4554">
+          <caret line="27" column="15" lean-forward="false" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和CrawlSpider类/newdongguan/start.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和CrawlSpider类/newdongguan/dongguan.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="884" column="977" lean-forward="false" selection-start-line="884" selection-start-column="13" selection-end-line="884" selection-end-column="977" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和CrawlSpider类/tencent/tencent/spiders/tencentJob.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <element signature="e#24#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和CrawlSpider类/newdongguan/newdongguan/spiders/donguan.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="58" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+          <folding>
+            <element signature="e#1351#1364#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和CrawlSpider类/scrapy框架和CrawlSpider类">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="95" column="1" lean-forward="false" selection-start-line="95" selection-start-column="1" selection-end-line="95" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和CrawlSpider类/newdongguan/newdongguan/spiders/dongguanSpider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="9" column="36" lean-forward="false" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+          <folding>
+            <element signature="e#24#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架和CrawlSpider类/newdongguan/startspider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python爬虫/scrapy框架/scrapy框架模拟登陆和中间件/scrapy框架模拟登陆和中间件">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

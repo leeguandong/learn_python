@@ -1,0 +1,105 @@
+acrapy框架
+分布式(基于scrapy) --- 请求指纹库，请求去重，基于同一数据库
+存item + 调度器去重，存请求指纹 + 存请求
+
+notes：
+爬虫名和项目名不能相同，否则识别不出来
+SomethingPipeling(object)  如果继承object一定要写process——item方法
+必须要return item，如果不return，下次处理的是上一次相同的对象
+管道文件可以有很多，数字越低，优先级越高
+管道文件一直是开启的，所以写入文件是w，就是一直开的，有数据就往里面写，但是如果写a的话，就是管道文件一会开，写入数据就关闭了，下次再追加数据的时候同样先
+开再关，这样就写a
+
+Spider类定义了如何爬取某个网站。包括爬取动作(例如：是否跟进连接)以及如何从网页的内容中提取结构化数据(爬取item)。换句话说，Spider就是之前定义的爬取的
+动作以及分析某个网页的地方
+
+parse()工作机制：
+1. 因为使用的yield，而不是return。parse函数将会被当做一个生成器使用。scrapy会逐一获取parse方法中生成的结果，并判断该结果是一个什么样的类型；
+2. 如果是request则加入爬取队列，如果是item类型则使用pipeline处理，其他类型则返回错误信息。
+3. scrapy取到第一部分的request不会立马就去发送这个request，只是把这个request放到队列里，然后接着从生成器里获取；
+4. 取尽第一部分的request，然后再获取第二部分的item，取到item了，就会放到对应的pipeline里处理；
+5. parse()方法作为回调函数(callback)赋值给了Request，指定parse()方法来处理这些请求 scrapy.Request(url, callback=self.parse)
+6. Request对象经过调度，执行生成 scrapy.http.response()的响应对象，并送回给parse()方法，直到调度器中没有Request（递归的思路）
+7. 取尽之后，parse()工作结束，引擎再根据队列和pipelines中的内容去执行相应的操作；
+8. 程序在取得各个页面的items前，会先处理完之前所有的request队列里的请求，然后再提取items。
+7. 这一切的一切，Scrapy引擎和调度器将负责到底。
+
+##############################################################
+CrawlSpiders类
+
+## 提取连接
+python2 -m scrapy shell 'http://hr.tencent.com/position.php?&start=0#a'
+# 返回200 表示访问成功
+response.body
+response.text
+
+# LinkExtractorti提取连接
+from scrapy.linkextractors import LinkExtractor
+
+## link_list是rules对象，每个rule对爬取网站动作进行了定义
+link_list = LinkExtractor(allow=('start=\d+'))
+# 匹配response中符合规则的
+link_list.extract_links(response)
+
+使用crawlSpider自动提取连接
+爬虫解析过程要自己写，不同于spider是系统自己写好的函数，这个一定自己写函数
+
+python2 -m startproject tencent
+python2 -m scrapy genspider -t crawl(创建crawl模板) tencent(爬虫名字) tencent.com (域名)
+
+1. items
+2. 爬虫类
+  1. 从start_url=[   ]拿到url，之后发请求，回调函数其实parse处理的，但是这个函数在crawlspider里是什么都没做的，不处理
+  2. pagelink = LinkExtractor(allow=('start=\d+'))到了这一步，会从匹配规则中找到符合规则的url，这里有个请求指纹库，会对重复的请求进行处理，
+     这个框架是先把url拿到，之后再一个一个发链接的
+  3. Rule(pagelink, callback='parseTencent', follow=True),指定callback之后，从上面拿到的url，会回调到parseTencent方法中执行
+  4. 通过parseTencent方法返回数据到管道函数中进行处理
+3. pipeline
+4. setting
+5. start
+
+############################################################
+东莞阳光网案例
+进入每一个帖子里面取数据
+
+取页面链接
+Python2 -m scrapy shell http://wz.sun0769.com/html/question/201712/355869.shtml
+response.url
+
+分析有一整套流程的：
+start_url = 'http://wz.sun0769.com/index.php/question/questionType?type=4&page='
+LinkExtractor(allow = r'type=4&page=\d+', follow = True),
+LinkExtractor(allow = r'/question/\d+/\d+', follow = True,)
+def parsedongguan():
+    item = dongguanItem()
+
+1.Python2 -m scrapy shell http://wz.sun0769.com/html/question/201712/355869.shtml
+  url = response.url
+2.去网页匹配
+  print title = response.xpath('//div[@class='greyframe']//strong').extract()[0]
+  print content = response.xpath('//div[@class='contentext']/text()').extract()[0]
+3.取值，取匹配网页里面的值
+  num = title.split(' ')[-1].split(':')[-1]
+
+这个网站有一个反爬虫机制(没遇到)：
+就是在爬取url的时候，给了一个假的url
+
+encode把unicode转换成指定的编码格式，decode、把指定的编码格式转换成ubicode
+
+把列表转成字符串：
+一个列表中多个字符串转成一个字符串
+list = []
+string = ''.join(list)
+&nbsp  空字符，html中的语法
+
+把crawlspider改成spider类
+ 
+
+
+
+
+
+
+
+
+

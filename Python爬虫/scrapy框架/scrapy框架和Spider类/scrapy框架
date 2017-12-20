@@ -82,6 +82,17 @@ notes：他这个items文件就像是以前搞java网络编程里面的bean实�
 工作地点：  .xpath('//td[4]/text()').extract()[0]
 发布时间    .xpath('//td[5]/text()').extract()[0]
 
+###############################
+斗鱼图片下载案例    图片下载的模板框架
+如何让手机的数据包发送到服务器的时候被电脑抓住包
+在手机上设置wifi为代理，用主机的ip地址和fiddler的端口号，这样就可以在电脑的fiddler上抓取到手机上的信息
+这个json地址很重要，一般必须要通过抓包来获取这个json，他是服务器返回到移动端的数据传输，有了这个json地址之后，对我们来讲，就可以对这个地址进行抓取
+http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=20&offset=20
+
+1.item
+2.拿到json地址，爬虫
+3.下载图片，模拟手机访问服务器，下载图片用的是scrapy中image方法
+
 
 
 
