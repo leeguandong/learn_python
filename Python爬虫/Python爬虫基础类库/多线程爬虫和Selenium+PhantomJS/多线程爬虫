@@ -114,7 +114,12 @@ if driver.page_source.find('shark-pager-disable-next') !=-1:
 验证码识别
 Tesseract  开源OCR库
 
-
+# xsrf作用是防止CSRF攻击(跨站请求伪造)，通常叫跨域攻击，是一种利用网站对用户的一种信任来做坏事
+#     # 跨域攻击通常会通过伪装成网站信任的用户的请求(利用cookie)，盗取用户信息、欺骗web服务器
+#     # 所以网站会通过设置一个隐藏的字段来存放这个MD5字符串，这个字符串来校验用户cookie和服务器session的一种方式
+#
+#     # 找到name属性值为 _xsrf 的input标签，再取出value 的值
+#     _xsrf = bs.find('input', attrs={'name': '_xsrf'}).get('value')
 
 
 

@@ -30,6 +30,7 @@
           <option value="Tools.dataset" />
           <option value="network.self" />
           <option value="Python核心编程.web服务器案例.Mywebframework.MyWebServer" />
+          <option value="Python爬虫.scrapy框架.scrapy框架模拟登陆和中间件.renrenLogin.renrenLogin.spiders.renren.RenrenSpider.parse_page" />
         </list>
       </option>
     </inspection_tool>

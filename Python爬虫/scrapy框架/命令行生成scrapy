@@ -1,0 +1,6 @@
+1. python2 -m scrapy startproject xxx
+2. python2 -m scrapy genspider -t crawl xxx xxx.com
+3. 写爬虫文件
+4. 写piplines
+5. 写setting
+6. 写start
