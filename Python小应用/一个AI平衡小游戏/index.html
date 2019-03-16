@@ -1,0 +1,119 @@
+                     <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Cart Pole Render</title>
+    <style>
+      #container {
+        background: #ffafbd; /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #ffafbd, #ffc3a0); /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #ffafbd, #ffc3a0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js"></script>
+    <script>
+const conatiner = document.getElementById('container');
+
+function createSimulation(container) {
+  const POLE_ANGLE_THRESHOLD = 12 * Math.PI/180; // 12 Degrees in Radians
+  const CART_POSITION_THRESHOLD = 1;
+  const CONTAINER_WIDTH = 640;
+  const CART_WIDTH = 30;
+  const POLE_WIDTH = 5;
+
+  const HALF_CONTAINER_WIDTH = CONTAINER_WIDTH / 2;
+  const HALF_CART_WIDTH = CART_WIDTH / 2;
+
+  container.style.width = `${CONTAINER_WIDTH}px`;
+  container.style.height = '320px';
+  container.style.position = 'relative';
+
+  // Create Cart DOM Element
+  const cart = document.createElement('div');
+  cart.classList.add('cart');
+  cart.style.width = `${CART_WIDTH}px`;
+  cart.style.height = '20px';
+  cart.style.background = '#355c7d';
+  cart.style.position = 'absolute';
+  cart.style.top = '240px';
+
+  // Create Pole DOM element
+  const pole = document.createElement('div');
+  pole.classList.add('pole');
+  pole.style.width = `${POLE_WIDTH}px`;
+  pole.style.height = '70px';
+  pole.style.background = '#c06c84';
+  pole.style.transformOrigin = '50% 5px';
+  pole.style.marginLeft = `${Math.floor(CART_WIDTH / 2 - POLE_WIDTH / 2)}px`;
+
+  const score = document.createElement('div');
+  score.style.position = 'absolute';
+  score.style.fontFamily = '"Helvetica Neue", Helvetica, Arial, sans-serif';
+  score.style.padding = '15px';
+  score.style.color = '#008aff';
+
+  const message = document.createElement('div');
+  message.style.position = 'absolute';
+  message.style.fontFamily = '"Helvetica Neue", Helvetica, Arial, sans-serif';
+  message.style.padding = '15px';
+  message.style.color = 'red';
+  message.style.top = '35px';
+
+  // Attach DOM elements to parents
+  cart.appendChild(pole);
+  container.appendChild(score);
+  container.appendChild(cart);
+  container.appendChild(message);
+
+  // Function for setting the state of our simulator
+  function setState(cartPosition, poleAngle, step) {
+    const left = HALF_CONTAINER_WIDTH - HALF_CART_WIDTH + (HALF_CONTAINER_WIDTH * (cartPosition/ 2.5))
+    cart.style.left=`${left}px`;
+
+    pole.style.transform = `rotate(${-Math.PI + poleAngle}rad)`;
+
+    score.innerHTML = `Score: ${step}`;
+
+    if (poleAngle >= POLE_ANGLE_THRESHOLD || poleAngle <= -1 * POLE_ANGLE_THRESHOLD) {
+      message.innerHTML = 'Game Over: Pole Angle Too Far';
+    } else if (cartPosition >= CART_POSITION_THRESHOLD || cartPosition <= -1 * CART_POSITION_THRESHOLD) {
+      message.innerHTML = 'Game Over: Cart Too Far';
+    } else {
+      message.innerHTML = '';
+    }
+  }
+
+  setState(0, 0, 0); // Reset State
+
+  return setState;
+}
+
+const setState = createSimulation(container);
+
+const FPS = 50;
+
+axios.get('/data').then(function(response) {
+  if (response.data == null) {
+    throw new Error('No data found');
+  }
+  const states = response.data;
+
+  let intervalHandle = 0;
+  let i = 0;
+  function stepState() {
+    if (i >= states.length) {
+      return clearInterval(intervalHandle);
+    }
+    const state = states[i++];
+    setState(state[0], state[2], i-1);
+  }
+
+  intervalHandle = setInterval(stepState, 1000/FPS);
+});
+    </script>
+  </body>
+</html>
