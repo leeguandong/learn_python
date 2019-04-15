@@ -1,0 +1,6 @@
+Traditional CNNs can learn fine HSI features in early layers and coarse features in latter layers. Through the convolution, the pooling operation, and the corresponding feature aggregation manner, the deep feature extraction is realized, and the final extracted features are used for the HSI classification. Since the learning process can only be progressively advanced in depth, the fine features often disappear in the process of depth transfer. As a result, the fine features in the early layers are not involved in the final HSI classification. Although accelerating the information flow can make the latter layers better obtain the information at the early layers, the convergence and the model training process can still be accelerated further. However, even with the skip connection, the fine feature information of the early layers is still lost in the transmission process. Feature extraction of the network at a single depth greatly weakens the effect of features at different scales. Moreover, with the increase in feature aggregation and connectivity, the complexity of the network and the training parameters increases significantly. In this case, deep networks tend to have long training times and slow convergence for HSI classification.
+
+
+ 
+
+
