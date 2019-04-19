@@ -36,7 +36,7 @@ class Vector2d:
     typecode = 'd'  # <1>
 
     def __init__(self, x, y):
-        self.x = float(x)    # <2>
+        self.x = float(x)  # <2>
         self.y = float(y)
 
     def __iter__(self):
@@ -61,4 +61,5 @@ class Vector2d:
 
     def __bool__(self):
         return bool(abs(self))  # <10>
+
 # END VECTOR2D_V0

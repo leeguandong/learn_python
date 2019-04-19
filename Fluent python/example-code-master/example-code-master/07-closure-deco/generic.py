@@ -28,19 +28,23 @@ from collections import abc
 import numbers
 import html
 
+
 @singledispatch  # <1>
 def htmlize(obj):
     content = html.escape(repr(obj))
     return '<pre>{}</pre>'.format(content)
 
+
 @htmlize.register(str)  # <2>
-def _(text):            # <3>
+def _(text):  # <3>
     content = html.escape(text).replace('\n', '<br>\n')
     return '<p>{0}</p>'.format(content)
+
 
 @htmlize.register(numbers.Integral)  # <4>
 def _(n):
     return '<pre>{0} (0x{0:x})</pre>'.format(n)
+
 
 @htmlize.register(tuple)  # <5>
 @htmlize.register(abc.MutableSequence)
@@ -49,4 +53,3 @@ def _(seq):
     return '<ul>\n<li>' + inner + '</li>\n</ul>'
 
 # END HTMLIZE
-
